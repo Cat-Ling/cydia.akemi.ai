@@ -1,0 +1,119 @@
+name: Archive and Deploy
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y dpkg-dev bzip2 gzip rsync
+
+      - name: Fetch Latest Wayback Binary
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          LATEST_TAG=$(gh api repos/Cat-Ling/wayback-go/releases/latest --jq .tag_name)
+          echo "Latest tag is $LATEST_TAG"
+          gh release download "$LATEST_TAG" -R Cat-Ling/wayback-go -p "wayback-go-linux-amd64" -O wayback
+          chmod +x ./wayback
+
+      - name: Run Archiver
+        run: |
+          # 1. Archive to temp directory
+          ./wayback -url https://cydia.akemi.ai -dir temp_site -threads 20
+          
+          # 2. Consolidate all .deb files into a clean debs/ directory
+          mkdir -p debs
+          find temp_site -name "*.deb" -exec mv {} debs/ \;
+          
+          # 3. Move other useful assets (icons, themes) to root if they exist
+          # We'll use rsync but exclude the messy Wayback folders
+          rsync -av --exclude='.git/' --exclude='.github/' --exclude='wayback' \
+            --exclude='temp_site/' --exclude='*?*' \
+            temp_site/ .
+          
+          # 4. Cleanup temp files
+          rm -rf temp_site wayback
+
+      - name: Fix Repository Metadata
+        run: |
+          # Generate Packages file from the consolidated debs folder
+          # This ensures all Filename fields look like "debs/package.deb"
+          dpkg-scanpackages -m debs /dev/null > Packages
+          
+          # Remove the './' prefix just in case
+          sed -i 's/^Filename: \.\//Filename: /g' Packages
+
+          # Compress Packages
+          gzip -c Packages > Packages.gz
+          bzip2 -c Packages > Packages.bz2
+          
+          # Generate Release file following Paisseon's pattern
+          cat <<EOF > Release
+          Origin: Akemi's Repo (Archived)
+          Label: Akemi's Repo (Archived)
+          Suite: stable
+          Version: 1.0
+          Codename: ios
+          Architectures: iphoneos-arm iphoneos-arm64
+          Components: main
+          Description: Automated archival of https://cydia.akemi.ai
+          MD5Sum:
+          EOF
+          
+          for f in Packages Packages.gz Packages.bz2; do
+            echo " $(md5sum $f | awk '{print $1}') $(stat -c%s $f) $f" >> Release
+          done
+          
+          echo "SHA256:" >> Release
+          for f in Packages Packages.gz Packages.bz2; do
+            echo " $(sha256sum $f | awk '{print $1}') $(stat -c%s $f) $f" >> Release
+          done
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          # Safely remove only files containing a literal question mark in their name
+          # We use find with -name to target the literal character and avoid shell glob expansion
+          find . -name "*\?*" -not -path "./.git/*" -exec git rm --cached {} + 2>/dev/null || true
+          
+          if git diff --quiet && git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "Automated archival update: Consolidated debs and cleaned repo structure"
+            # Pull with rebase to handle manual changes made to the repo while the action was running
+            git pull --rebase origin main
+            git push origin main
+          fi
+
+      - name: Zip for Release
+        run: |
+          zip -r cydia.akemi.ai-archive.zip . -x "*.git*" ".github/*" "wayback" "temp_site*"
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v$(date +'%Y.%m.%d')"
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" cydia.akemi.ai-archive.zip --clobber
+          else
+            gh release create "$TAG" cydia.akemi.ai-archive.zip \
+              --title "Archive $TAG" \
+              --notes "Automated archival update." \
+              --latest
+          fi
