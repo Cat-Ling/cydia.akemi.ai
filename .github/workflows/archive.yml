@@ -1,0 +1,42 @@
+name: Archive Website
+
+on:
+  schedule:
+    - cron: '0 0 * * 0' # Weekly at midnight on Sunday
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Wayback Archiver
+        run: |
+          chmod +x ./wayback
+          ./wayback -url https://cydia.akemi.ai -dir download -threads 20
+
+      - name: Zip Archive
+        run: |
+          zip -r cydia.akemi.ai-archive.zip download/
+
+      - name: Create Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TAG="v$(date +'%Y.%m.%d')"
+          # Create release (creates tag if missing). If release exists, upload file to it.
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            echo "Release $TAG already exists, uploading asset..."
+            gh release upload "$TAG" cydia.akemi.ai-archive.zip --clobber
+          else
+            echo "Creating new release $TAG..."
+            gh release create "$TAG" cydia.akemi.ai-archive.zip \
+              --title "Archive $TAG" \
+              --notes "Automated archival of https://cydia.akemi.ai using wayback binary." \
+              --latest
+          fi
