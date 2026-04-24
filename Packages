@@ -1,0 +1,3156 @@
+Package: ai.akemi.appinst
+Version: 2.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 364
+Pre-Depends: firmware (>= 5.0)
+Depends: ai.akemi.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Replaces: com.linusyang.appinst
+Provides: com.linusyang.appinst
+Filename: debs/nodelete-ai.akemi.appinst.deb
+Size: 60158
+MD5sum: 68d376ab836e5e92106be1a368a00c3b
+SHA1: 9acf2fb322cd5e9a9d4603999aaf12f676cbe74d
+SHA256: b2dc9df6b8127dfb2d219b583cde5b04168b2df1b4e292f00042c0f9b8e3cebc
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: A command-line IPA app installer.
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appinst
+Name: appinst (App Installer)
+
+Package: ai.akemi.appsyncunified
+Version: 110.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 700
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 16.3.1)
+Conflicts: us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, technology.goated.appsync, technology.goated.appsyncunified, vaginalfisting.appsynctool, science.xnu.substitute
+Replaces: us.hackulo.appsync50, net.angelxwind.appsyncunified
+Provides: appsync, net.angelxwind.appsyncunified
+Filename: debs/nodelete-ai.akemi.appsyncunified.deb
+Size: 58440
+MD5sum: 26f898f0b80f3bd842527aa9a9859bb1
+SHA1: f0392e1c1992789ac92c17dc7db3718fca6df899
+SHA256: fa97d20ecaab914c7d07fc17ff2f31c15d34b33a5eebc158cb2c83e8a7ec2abc
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enables the ability to install unsigned/fakesigned iOS applications.
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified
+Name: AppSync Unified
+
+Package: ai.akemi.genshincontrollerenabler
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 280
+Depends: mobilesubstrate, firmware (<< 14.0)
+Filename: debs/nodelete-ai.akemi.genshincontrollerenabler.deb
+Size: 4216
+MD5sum: 9fcf65e7b81b80c174d5d7a02a4b1b4d
+SHA1: 52e402f642e03fa89d15a06c25d3dcf3343cd3de
+SHA256: 413b75a896a32d3ee921f0058107fd115af636886e90a24d788229a7b2b9ae97
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Use a controller on iOS 13 and below natively in Genshin!
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.genshincontrollerenabler
+Name: Genshin Controller Enabler
+
+Package: atv-lighttpd-php-mysql
+Version: 1.6-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 488
+Pre-Depends: dpkg (>= 1.14.25-8), gawk, coreutils
+Depends: lighttpd-atv, mysql-atv, php54, preferenceloader, gawk, grep, adv-cmds, com.ericasadun.utilities, com.linusyang.localeutf8, logrotate, tk.ios-webstack.logrotate-daemonizer
+Conflicts: php, mysql, ios-lighttpd-php-mysql, com.chattaboxa.blogwiki, com.jpifher.phppod, net.limneos.sbstogglelighttpd, com.jpifher.lighttpdswitchbossprefs
+Filename: debs/atv-lighttpd-php-mysql_1.6-2_iphoneos-arm.deb
+Size: 231022
+MD5sum: 5f141df161f7399a5703e66f0e8df197
+SHA1: 539780d1f9ba2a65eb4cc01e50484bb1ce64e491
+SHA256: 2b57e9ff2536628f4d69e0f0196ecade2e1af1bb9e4d4867d193ebacba7c3d49
+Section: Networking
+Priority: optional
+Description: A whole AppleTV Web Server Stack Composition. THIS LAUNCHER PACKAGE MUST NOT BE INSTALLED ON AN iPhone, iPad OR iPod.
+  A whole AppleTV Web Server Stack Composition.
+Tag: purpose::console, role::enduser
+Role: enduser
+
+Package: atv-lighttpd-php-mysql
+Version: 1.7-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 488
+Pre-Depends: dpkg (>= 1.14.25-8), gawk, coreutils
+Depends: lighttpd-atv, mysql-atv, php56, preferenceloader, gawk, grep, adv-cmds, com.ericasadun.utilities, com.linusyang.localeutf8, logrotate, tk.ios-webstack.logrotate-daemonizer
+Conflicts: php, mysql, ios-lighttpd-php-mysql, com.chattaboxa.blogwiki, com.jpifher.phppod, net.limneos.sbstogglelighttpd, com.jpifher.lighttpdswitchbossprefs
+Filename: debs/atv-lighttpd-php-mysql_1.7-3_iphoneos-arm.deb
+Size: 231026
+MD5sum: d1fb71bd6489d46af9c8c3fde4a47556
+SHA1: 9f8fb24ee8b57d36e7b5c51f710df0086224cf1d
+SHA256: c6005584fa178a960712cdfa194ee12c41afad015627ab59d1872f1620b58aed
+Section: Networking
+Priority: optional
+Description: A whole AppleTV Web Server Stack Composition. THIS LAUNCHER PACKAGE MUST NOT BE INSTALLED ON AN iPhone, iPad OR iPod.
+  A whole AppleTV Web Server Stack Composition.
+Tag: purpose::console, role::enduser
+Role: enduser
+
+Package: com.ericasadun.utilities
+Version: 1:0.4.2
+Architecture: iphoneos-arm
+Maintainer: Erica Sadun <apptapp@ericasadun.com>
+Filename: debs/com.ericasadun.utilities_0.4.2_iphoneos-arm.deb
+Size: 55410
+MD5sum: 89a3bb9791c2deee6f530773089ee43d
+SHA1: b57904d5171e56cd559c798d277ccf9f8d45c556
+SHA256: 4e8e98895576e985be5a50070c96403a2ce2b577eb2267649853686a2ad99f56
+Section: Utilities
+Homepage: http://modmyi.com/info/ericautilities.php
+Description: A collection of command-line utilities for various purposes.
+Author: Erica Sadun <apptapp@ericasadun.com>
+Depiction: http://modmyi.com/info/ericautilities.d.php
+Name: Erica Utilities
+Sponsor: ModMyi.com <http://modmyi.com>
+
+Package: com.exile90.icleanerpro
+Version: 7.5.6
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.5.6.deb
+Size: 2248186
+MD5sum: 9c4ff8dff8201f39406a355ed794225e
+SHA1: 13113f16f09be565ac6af74182d8496e46000b17
+SHA256: c69a7c6599cd01b6e6eaf7629bcb0f9ff0e89a5967aa30580b2e160bbf5844ad
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.6.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.6.0.deb
+Size: 3412148
+MD5sum: 189fcd17a4e578ff7bedf6e4da3c00e0
+SHA1: 7ea0e5ad6db54da7502f16bd6f6c52b90622a17c
+SHA256: 62fdec53c0f7f866e91fb5967daa0525f97c7f1a808fba3d09de098f1eebf1cf
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.6.1
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.6.1.deb
+Size: 3476514
+MD5sum: 1092ade3fa86f47806ad6a95674b6b81
+SHA1: 02d6830fadc41ce99a5b117cc92f413c819f8eb7
+SHA256: bb71b17f473d3d347245ca79446873b7d4377dcd7efadc39c9bc6d4da4b8b25e
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.6.2
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.6.2.deb
+Size: 3478496
+MD5sum: 392d0b5fb0f6d4334fa05b5d354e5e79
+SHA1: b6f98d74b2f960ccaa1b403c09ad04f4065f4917
+SHA256: 84c53bf0d1b67d34796c5d4d00ea8bc5e41bae0dcc4675fe8a7d810121985b50
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.6.4
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: apt, findutils, shell-cmds
+Depends: firmware (>= 4.0)
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.6.4.deb
+Size: 3565292
+MD5sum: e82848f686c56f6515f9c6df72d9bc5a
+SHA1: 9d9df839501fe0a57312a7312915945d168a02db
+SHA256: fe7a4de25d581a61b9b5ce049b8fdafe5a1f0ae0758e38176708ac92bccc32ec
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.7.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), apt7, findutils, shell-cmds
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.7.0.deb
+Size: 4625528
+MD5sum: 717f23162f6c1e755b2eb9dfe3c848f5
+SHA1: aee6ce5f65f998b26250b4cf7e552e21516a5aff
+SHA256: 710c384841f80d37c39b38fdff21ca1c2f9279d5407486fa9545ca04ccd59bb1
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.7.1
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.7.1.deb
+Size: 5366626
+MD5sum: b421f4145e94ab64205ee8f2bbda78e1
+SHA1: 4f3b156ed246a5624bb3bf1d6b7f1d483f16b500
+SHA256: 7670406b8f0520eeffcd9f68f9646ffd55e803df968768de718f920c5b315d67
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.7.5
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, shell-cmds, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.7.5.deb
+Size: 5385562
+MD5sum: 5b6209151608ac092b4805833691bd9d
+SHA1: 0949f21d5f407a2e32b1b5741a1fe313d9e49aff
+SHA256: c90508a0f6782136717407639147ae5bbfba730c252ba044185a0ed072e2fccd
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.8.3
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/iCleanerPro_7.8.3.deb
+Size: 6468796
+MD5sum: 066dd8cd88f869605942ab7f6019c56f
+SHA1: 6dcfe8105eaf708bb983b2db73c90e91b4f48b4f
+SHA256: 91d9e941d47a2b6d89e1db7edba28aa7e0b1ecfa7127d1ebfa6c03fff0136314
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.9.0
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.exile90.icleanerpro_7.9.0_iphoneos-arm.deb
+Size: 4772402
+MD5sum: 0ce90140ef3ebb38c8fdecda21f9eb7c
+SHA1: 4e9bf12c53b8e2ac07c2d4e5d21219739fe9f2ba
+SHA256: 7b35413010d2afc0c3df2d36d51aca3115a88a53bb2122fa52558e89e3205195
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.exile90.icleanerpro
+Version: 7.9.1
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/com.exile90.icleanerpro_7.9.1_iphoneos-arm.deb
+Size: 4786998
+MD5sum: ccd722461350e28e2e0b5a029416ca6c
+SHA1: 36acad04b82db75d345c91ee363a27eb4d602a27
+SHA256: f1e6087494618183f7539bba3a38ee88608383868cfcd524f99b46d7e7a27a47
+Section: Utilities
+Homepage: http://ib-soft.net/icleaner
+Description: The first real iOS system cleaner & optimizer
+Author: Ivano Bilenchi <support@ib-soft.net>
+Depiction: http://ib-soft.net/depictions/?pkgId=com.exile90.icleanerpro
+Icon: file:///Applications/iCleaner.app/Icon.png
+Name: iCleaner Pro
+
+Package: com.ivanobilenchi.icleanerdarktheme
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Ivano Bilenchi <support@ib-soft.net>
+Pre-Depends: winterboard
+Filename: debs/iCleanerDarkTheme_1.0.2.deb
+Size: 1274
+MD5sum: 5e798339af8424c399d5373630007dd7
+SHA1: a058489360ec590c87722bff7ff3e7b8bb5a197d
+SHA256: 5188576106e2f9657da7d7520e416e98b799586e6f4b9ff43bdcdc5205fd191c
+Section: Themes
+Homepage: http://ib-soft.net/icleaner
+Description: Dark theme for the iCleaner and iCleaner Pro apps.
+Author: Ivano Bilenchi <support@ib-soft.net>
+Name: iCleaner Dark Theme
+
+Package: com.linusyang.appinst
+Version: 1.1.4
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 392
+Pre-Depends: firmware (>= 5.0)
+Depends: net.angelxwind.appsyncunified (>= 5.1)
+Conflicts: com.sull.appinstaller
+Filename: debs/nodelete-com.linusyang.appinst.deb
+Size: 75224
+MD5sum: bc07d52e849498a244f392d09b8d1ae8
+SHA1: b8e7578118cee54ddb49b739907ad015310601c8
+SHA256: 2b1cce8defe3eba168c4fbd038c8dac4e8ffe7bb8c4ddeba178f8b0a6c597d25
+Section: Utilities
+Priority: standard
+Homepage: https://github.com/akemin-dayo/AppSync
+Description: Install IPAs from the command line
+Tag: role::enduser, purpose::console
+Author: Karen/あけみ, Linus Yang <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/com.linusyang.appinst
+Name: appinst (App Installer)
+
+Package: com.linusyang.localeutf8
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: profile.d
+Filename: debs/localeutf8_1.0-1.deb
+Size: 5448
+MD5sum: 44518f7af981fa092bc20a24976a0c7f
+SHA1: 45e005d644f4eff178e6eed37a9c1f76c35ac941
+SHA256: 6339ffcaf3e44f4c1e3821405032cfb961e0952940f8a1b76a357a9dbecdf548
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Description: UTF-8 locale files for en_US and zh_CN
+Tag: purpose::console, role::hacker
+Author: Linus Yang <laokongzi@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Dev: laokongzi
+Name: Locale Profiles in UTF-8
+
+Package: com.unthreadedjb.hashtag-unthreadedjb-hashtag-screan
+Version: 0.0.0.0.0.0.0.3-ALAPHA
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: org.chronic-dev.animate, com.ih8sn0w.animatefix
+Filename: debs/com.unthreadedjb.hashtag-unthreadedjb-hashtag-screan.deb
+Size: 1722196
+MD5sum: 8920391391856c92449c93c0b039ff39
+SHA1: 26f3f83d87dcfeb49bf3b43cb30720b62cac585f
+SHA256: f619efdaf01ebc0d02f214a4a3ce4aa9b21bb4f793cf89401758c3568f9476d1
+Section: Addons (BootLogo)
+Homepage: https://www.youtube.com/user/UnthreadedJB
+Description: #unthreadedjb screan .. it is of #gud #tweek HOLMES !!
+Author: #unthreadedjb
+Icon: file:///Library/KarenRepoIcons/com.unthreadedjb.hashtag-unthreadedjb-hashtag-screan.png
+Name: #unthreadedjb #screan
+
+Package: curl
+Version: 7.41.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 828
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0)
+Filename: debs/curl_7.41.0-1_iphoneos-arm.deb
+Size: 281808
+MD5sum: cc363fd82ad09ddc05479793ecf6cb34
+SHA1: 1e2a3c40013702d35cd2d49be3a4df8b2941b015
+SHA256: 10e9483408d2bfd7a16fd51ff9123c84ff37e0afd1733db5ce2f58d67ee88553
+Section: Networking
+Priority: standard
+Homepage: http://curl.haxx.se/
+Description: cURL is a file transfer command line tool.
+  cURL is a multiprotocol file transfer command line tool and library
+ for transferring data with URL syntax.
+  In this version a lot of security vulnerabilities are fixed since
+ Sauriks version 7.33.0 .
+Depiction: http://ios-webstack.tk/cydia/depictions/curl
+Name: cURL
+Role: hacker
+
+Package: curl
+Version: 7.43.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 824
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0)
+Filename: debs/curl_7.43.0-1_iphoneos-arm.deb
+Size: 282808
+MD5sum: 1ca84841bbf8b47a3244f649f417f4c5
+SHA1: 56c7b157b05719138a9ce84206190354b10a485a
+SHA256: 32296deeff4b62d21f7ffca47fb7b20a420fecc033544e82f0b5e14e336a5924
+Section: Networking
+Priority: standard
+Description: cURL is a file transfer command line tool.
+  cURL is a multiprotocol file transfer command line tool and library
+ for transferring data with URL syntax.
+  In this version a lot of security vulnerabilities are fixed since
+ Saurik's version.
+Role: hacker
+
+Package: dovecot
+Version: 2.2.5-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 8500
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0), gawk, adv-cmds, gnupg
+Filename: debs/dovecot_2.2.5-4_iphoneos-arm.deb
+Size: 1818148
+MD5sum: bcc14a7f9fa82affca9ad3726e0c1811
+SHA1: 4ee0871b623b4d8f8c962b72413bf32610ade503
+SHA256: f8c854602995eaa06d6fb8e16695d68b95626dadc29646b12024e5ad1419211a
+Section: Networking
+Priority: optional
+Description: Dovecot is an open source IMAP and POP3 email server
+  Dovecot is an open source IMAP and POP3 email server for UNIX-like
+ systems, written with security primarily in mind.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: emailrelay
+Version: 1.8.2-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 2992
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0), gawk, adv-cmds, gnupg
+Filename: debs/emailrelay_1.8.2-1_iphoneos-arm.deb
+Size: 657630
+MD5sum: b1f7640f5a27ebee487d1c7a632ed699
+SHA1: 45f357c3937586d5181022c4a95a5624181a90cd
+SHA256: 6458a7506944a99b905b58dfcb23d457fd7809396f74a3e224e078ca3b1cb017
+Section: Networking
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: E-MailRelay is a simple SMTP proxy and store-and-forward message transfer agent (MTA)
+  E-MailRelay is a simple SMTP proxy and store-and-forward message
+ transfer agent (MTA).
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Name: E-MailRelay
+Role: hacker
+
+Package: gcrypt
+Version: 1.5.3-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 808
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgpg-error, firmware(>= 3.0)
+Filename: debs/gcrypt_1.5.3-1_iphoneos-arm.deb
+Size: 261410
+MD5sum: cd572ee1ed6983f31c0631432fe310e6
+SHA1: 037fefa388fddeecfa054b472f635c79da942671
+SHA256: 4e6c16ab62cbf4c4fb32dae34467431979776c69f2cd005e39737e2779f038f0
+Section: Security
+Priority: optional
+Homepage: http://www.gnupg.org/
+Description: LGPL cryptographic algorithm library
+  LGPL cryptographic algorithm library
+  In this version a lot of security vulnerabilities are fixed since
+ Sauriks version 1.4.0
+Name: GNU Cryptography
+Role: developer
+
+Package: gcrypt
+Version: 1.5.4-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 812
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgpg-error, firmware(>= 3.0)
+Filename: debs/gcrypt_1.5.4-1_iphoneos-arm.deb
+Size: 262752
+MD5sum: bb42e37acb76ce6354ccb4de205f6c3a
+SHA1: 451243f0068be49c5ea62049a9f77620ba8c145d
+SHA256: 850a914012d7b12729f90364822f30938ac441060e0117ac83e36c36cca453f1
+Section: Security
+Priority: optional
+Homepage: http://www.gnupg.org/
+Description: LGPL cryptographic algorithm library
+  LGPL cryptographic algorithm library
+  In this version a lot of security vulnerabilities are fixed since
+ Sauriks version 1.4.0
+Name: GNU Cryptography
+Role: developer
+
+Package: gnupg
+Version: 1.4.18-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1872
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, ncurses, firmware(>= 3.0)
+Filename: debs/gnupg_1.4.18-1_iphoneos-arm.deb
+Size: 482136
+MD5sum: 20df84b3603c99b55e95df8fea3a3767
+SHA1: c12e39b26ce4b065842b45ac8f310a3dfd97e103
+SHA256: 2bfe9f2b8b65a3b6039c8c608341707826eb05f6c46a84826f066d8c3083697d
+Section: Security
+Priority: required
+Description: Encryption compatible with OpenPGP
+  GnuPG or GPG is a free alternative to the PGP suite of cryptographic
+ software.
+Role: hacker
+
+Package: gnupg
+Version: 1.4.19-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1892
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, ncurses, firmware(>= 3.0)
+Filename: debs/gnupg_1.4.19-1_iphoneos-arm.deb
+Size: 485294
+MD5sum: 6ef0b78ec22cadf0359c3c9b95615ebe
+SHA1: a3de1815d19be490a86b51d43247353e1b444127
+SHA256: 7b56d4565adc8e4e22357b7a0a3ded8dcfff8d4a656db730078428b2295bc032
+Section: Security
+Priority: required
+Description: Encryption compatible with OpenPGP
+  GnuPG or GPG is a free alternative to the PGP suite of cryptographic
+ software.
+Role: hacker
+
+Package: graphicsmagick-atv
+Version: 1.3.17-8
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 3956
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libfreetype, libjpeg, libpng, libtiff, libxml2
+Filename: debs/graphicsmagick-atv_1.3.17-8_iphoneos-arm.deb
+Size: 1200776
+MD5sum: 0088160623d067790e4a47b456c77246
+SHA1: ac0672bce4ae0c5c8d61bccbc4511d0ec86f74c6
+SHA256: 4cf25a6e4838e49c244b880995a093d2299efea36ad95fc423b00d94d684c8fc
+Section: Multimedia
+Priority: optional
+Description: GraphicsMagick is the swiss army knife of image processing.
+  GraphicsMagick is the swiss army knife of image processing.
+  In the base package it provides a robust and efficient collection of
+ tools and libraries which support reading, writing, and manipulating an
+ image in over 88 major formats including important formats.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: imagemagick-atv
+Version: 6.8.0-9
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 6152
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libxml2, libfreetype, libjpeg, libpng, libtiff
+Replaces: imagemagick (<6.8.0)
+Filename: debs/imagemagick-atv_6.8.0-9_iphoneos-arm.deb
+Size: 1854400
+MD5sum: 1e381687f54e5e9bd57c5d465f7a4f71
+SHA1: 2f103dac0da17e3cbda4634ad522cea56487f223
+SHA256: 49c464b03990ebbfe93e03460f32328e56e522c9b906179359a119108c3d266f
+Section: Multimedia
+Priority: optional
+Description: ImageMagick ia software suite to create, edit, compose, or convert bitmap images.
+  ImageMagick is a software suite to create, edit, compose, or convert
+ bitmap images.
+  It can read and write images in a variety of formats.
+  Use ImageMagick to resize, flip, mirror, rotate, distort, shear and
+ transform images, adjust image colors, apply various special effects,
+ or draw text, lines, polygons, ellipses and Bezier curves.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: ios-lighttpd-php-mysql
+Version: 2.4-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 556
+Pre-Depends: dpkg (>= 1.14.25-8), gawk, coreutils
+Depends: lighttpd-atv, mysql-atv, php54, gawk, preferenceloader, grep, adv-cmds, com.ericasadun.utilities, com.linusyang.localeutf8, logrotate, tk.ios-webstack.logrotate-daemonizer
+Conflicts: php, mysql, atv-lighttpd-php-mysql, net.was.lighttpd, com.chattaboxa.blogwiki, com.jpifher.phppod, net.limneos.sbstogglelighttpd, com.jpifher.lighttpdswitchbossprefs
+Filename: debs/ios-lighttpd-php-mysql_2.4-3_iphoneos-arm.deb
+Size: 240580
+MD5sum: b8c7803368733592bb9eeec6bfa0a463
+SHA1: eb78f5eeb1381a42c2f8666d47fc523705a8084a
+SHA256: 801b52d2e349fe8d468a462f3be07fb2ec93ecb036f34ea60733086a3e911c57
+Section: Networking
+Priority: optional
+Description: A whole iPad/iPhone Web Server Stack Composition. THIS LAUNCHER PACKAGE MUST NOT BE INSTALLED ON AN AppleTV DEVICE.
+  A whole iPad/iPhone Web Server Stack Composition. THIS LAUNCHER
+ PACKAGE MUST NOT BE INSTALLED ON AN AppleTV DEVICE.
+Tag: purpose::console, role::enduser
+Role: enduser
+
+Package: ios-lighttpd-php-mysql
+Version: 2.5-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 556
+Pre-Depends: dpkg (>= 1.14.25-8), gawk, coreutils
+Depends: lighttpd-atv, mysql-atv, php56, gawk, preferenceloader, grep, adv-cmds, com.ericasadun.utilities, com.linusyang.localeutf8, logrotate, tk.ios-webstack.logrotate-daemonizer
+Conflicts: php, mysql, atv-lighttpd-php-mysql, net.was.lighttpd, com.chattaboxa.blogwiki, com.jpifher.phppod, net.limneos.sbstogglelighttpd, com.jpifher.lighttpdswitchbossprefs
+Filename: debs/ios-lighttpd-php-mysql_2.5-4_iphoneos-arm.deb
+Size: 240574
+MD5sum: 5ad2f62bc5c1e6201bab1207e3741d62
+SHA1: cb21f3d9f37826620ee53e52115bde29252b0e0d
+SHA256: e507ca9ea9b3f67f050ee76197c48cf93ccc0b0fdb28b0d5943b5a3b3303955b
+Section: Networking
+Priority: optional
+Description: A whole iPad/iPhone Web Server Stack Composition. THIS LAUNCHER PACKAGE MUST NOT BE INSTALLED ON AN AppleTV DEVICE.
+  A whole iPad/iPhone Web Server Stack Composition. THIS LAUNCHER
+ PACKAGE MUST NOT BE INSTALLED ON AN AppleTV DEVICE.
+Tag: purpose::console, role::enduser
+Role: enduser
+
+Package: ios-webstack-patcher
+Version: 0.1-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 24
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: patch
+Filename: debs/ios-webstack-patcher_0.1-2_iphoneos-arm.deb
+Size: 1248
+MD5sum: fc957c99c90d74038e603e2dc4127bca
+SHA1: 75cd0e65a244cfa9f9a16235dabf46d7359a2916
+SHA256: 3301c3dd1c32086ea0361602ba259aec159114f9032f75f6bf80ea9b3ba29075
+Section: Administration
+Priority: optional
+Description: A small script hack for older ios-lighttpd-php-mysql packages
+  A small script hack for older ios-lighttpd-php-mysql packages.
+  Don't install it if you don't now anything about it!
+Tag: purpose::console, role::developer
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: developer
+
+Package: isync
+Version: 1.0.6-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 224
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: berkeleydb, openssl, firmware(>= 3.0)
+Filename: debs/isync_1.0.6-1_iphoneos-arm.deb
+Size: 62986
+MD5sum: 6891d08c9a8808ce481b094a6af081d5
+SHA1: abfe4dc8be70e6a0f13275e5a615edd31ca9a7be
+SHA256: 1edce108d515e04d44f1ee91c7976a8732a5a7ff2fc3f9bf7cb3d2dbcef41196
+Section: Networking
+Priority: optional
+Description: Synchronize IMAP4 and Maildir mailboxes
+  Synchronize IMAP4 and Maildir mailboxes
+  isync is a command line application which synchronizes local Maildir
+ mailboxes with remote IMAP4 mailboxes, suitable for use in
+ IMAP-disconnected mode. Multiple copies of the remote IMAP4 mailboxes
+ can be maintained, and all flags are synchronized.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: joomla3
+Version: 3.4.3-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 48220
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.linusyang.localeutf8
+Conflicts: joomla-atv
+Filename: debs/joomla3_3.4.3-1_iphoneos-arm.deb
+Size: 5175224
+MD5sum: 7f36700d87147a41727aaa11ae5488c4
+SHA1: 8865abdfe79a61d8b59566c279d48c9bf97a21c5
+SHA256: 91276ed7e78786d87520e69fe0f01469a55baec99a3eb9b76d78f6696b9a64cc
+Section: Networking
+Priority: optional
+Description: Joomla! enables you to build Web sites and powerful online applications.
+  Joomla! is an award-winning content management system (CMS), which
+ enables you to build Web sites and powerful online applications.
+Tag: purpose::console
+Role: hacker
+
+Package: libfreetype
+Version: 2.4.11-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 652
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: freetype2-atv
+Filename: debs/libfreetype_2.4.11-5_iphoneos-arm.deb
+Size: 254136
+MD5sum: e1c7a4c286aa281c3509849cbe1818ef
+SHA1: 98d3acb6623e2398152a69cb6f6bc97c5491111c
+SHA256: 63dbe27f467edb0947ba355a2be28838de4326cb22e3911a63a3f5c7daee583b
+Section: Multimedia
+Priority: optional
+Homepage: http://goo.gl/LXfUB
+Description: FreeType is a freely available software library to render fonts.
+  FreeType is a freely available software library to render fonts.
+  This package contains the shared library files.
+Tag: purpose::library, role::hacker
+Name: libfreetype
+Role: hacker
+
+Package: libfreetype-dev
+Version: 2.4.11-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1236
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libfreetype
+Filename: debs/libfreetype-dev_2.4.11-5_iphoneos-arm.deb
+Size: 118234
+MD5sum: 176db4455cd08b790778f835d7e5800d
+SHA1: 4ecc4b6dd84196292de35d99d51397c1abe5d027
+SHA256: d63ad174552a266f49699f9c5f6673236e43c592f4d4d140bb22b99e649a2b76
+Section: Multimedia
+Priority: optional
+Homepage: http://goo.gl/LXfUB
+Description: FreeType is a freely available software library to render fonts.
+  FreeType is a freely available software library to render fonts.
+  This package contains the libfreetype headers.
+Tag: purpose::library, role::developer
+Name: libfreetype-dev
+Role: developer
+
+Package: libgd
+Version: 2.0.33-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 500
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libfreetype, libjpeg, libpng
+Filename: debs/libgd_2.0.33-3_iphoneos-arm.deb
+Size: 53388
+MD5sum: 310b94172b484c1118a70f79dfaa2882
+SHA1: 62c8085098af6d04bf319b9976eebec0d913e422
+SHA256: 5e74c8c2265271ab36281e3c513d6d9b4532317159f59b2b9680b72528ef94d4
+Section: Multimedia
+Priority: optional
+Description: GD is a library for the dynamic creation of images by programmers.
+  GD is an open source code library for the dynamic creation of images
+ by programmers.
+Tag: purpose::library, role::hacker
+Role: hacker
+
+Package: libgd-dev
+Version: 2.0.33-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libgd-dev_2.0.33-3_iphoneos-arm.deb
+Size: 15542
+MD5sum: 59614ced90df6bc0e1ac2068e733fe9b
+SHA1: 1b136c8cbbd91286ff6d3ba0612fba0db694b067
+SHA256: 51875374ef0355eee393bf796243b3d0943a533d6a95a3853c0f828383faba47
+Section: Multimedia
+Priority: optional
+Homepage: https://bitbucket.org/pierrejoye/gd-libgd
+Description: GD is a library for the dynamic creation of images by programmers.
+  GD is a library for the dynamic creation of images by programmers.
+  This package contains the libgd headers.
+Tag: purpose::library, role::developer
+Name: libgd-dev
+Role: developer
+
+Package: libgeoip
+Version: 1.5.0-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1712
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libgeoip_1.5.0-4_iphoneos-arm.deb
+Size: 616862
+MD5sum: 0863558b4761b5d34e94f60a8d50589f
+SHA1: 5fb65d14a74a789c2d0d0a1cffa5c0966e1f0d23
+SHA256: 1efdbd367ba28ba3b9aeccc9a02cd6966874456ecfd4d5d91b2f1e70a6c9b194
+Section: Networking
+Priority: optional
+Homepage: https://github.com/maxmind/geoip-api-c
+Description: GeoIP is a library to find geographical and network information of an IP address.
+  GeoIP is a library to find geographical and network information of an
+ IP address.
+  This package contains the shared GeoIP library.
+Tag: purpose::library, role::hacker
+Name: libgeoip
+Role: hacker
+
+Package: libgeoip
+Version: 1.6.5-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1068
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libgeoip_1.6.5-1_iphoneos-arm.deb
+Size: 374160
+MD5sum: e6a1700e105d729cf0f49d7cc6d35938
+SHA1: 4269ff0508012256d3aa8b14cd7240a3accb6c3b
+SHA256: 97ce074f8aaab7f29439eac66bee41ff0883a9b34b91cce2ee667a49405c80cb
+Section: Networking
+Priority: optional
+Description: GeoIP is a library to find geographical and network information of an IP address.
+  GeoIP is a library to find geographical and network information of an
+ IP address.
+  This package contains the shared GeoIP library.
+Tag: purpose::library, role::hacker
+Role: hacker
+
+Package: libgeoip-dev
+Version: 1.5.0-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libgeoip-dev_1.5.0-4_iphoneos-arm.deb
+Size: 5932
+MD5sum: f5ee91f29290a9cae8fde9c5d26dabbd
+SHA1: f6f76e54e2e562a37e1e67058d1939e6558139bd
+SHA256: 64fe4be5240dd965c7c60d877a1054ec6a26d776fa5fedc57618488ed807779c
+Section: Networking
+Priority: optional
+Homepage: https://github.com/maxmind/geoip-api-c
+Description: GeoIP is a library to find geographical and network information of an IP address.
+  GeoIP is a library to find geographical and network information of an
+ IP address.
+  This package contains the GeoIP library headers.
+Tag: purpose::library, role::hacker
+Name: libgeoip-dev
+Role: developer
+
+Package: libgeoip-dev
+Version: 1.6.5-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 68
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgeoip
+Filename: debs/libgeoip-dev_1.6.5-1_iphoneos-arm.deb
+Size: 5584
+MD5sum: 133134022c8f56ed77d33490fa4d7c62
+SHA1: a3984082f519f5c784643ddb41640fc40fb2576e
+SHA256: 3f0f1b08180184fb386687cd988b5d39efad2fd282d6b13b24c16e7319c84617
+Section: Networking
+Priority: optional
+Description: GeoIP is a library to find geographical and network information of an IP address.
+  GeoIP is a library to find geographical and network information of an
+ IP address.
+  This package contains the GeoIP library headers.
+Tag: purpose::library, role::hacker
+Role: developer
+
+Package: libgpg-error
+Version: 1.17-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 244
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware(>= 3.0)
+Filename: debs/libgpg-error_1.17-1_iphoneos-arm.deb
+Size: 44020
+MD5sum: 812da9eae18a0d3f37dd289a999d3d6f
+SHA1: d331b264b4aed4a1ed6acb6f95c29e950f10d7f5
+SHA256: f06bd75ae1e8fd304b583d6ea05193e9d0148b954e4a0ff752d941ec6357dc25
+Section: Security
+Priority: optional
+Homepage: http://www.gnupg.org/
+Description: GnuPG's error management library
+  GnuPG's error management library
+  In this version a lot of security vulnerabilities are fixed since
+ Sauriks version 1.6
+Name: GnuPG Errors
+Role: developer
+
+Package: libgpg-error
+Version: 1.19-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 260
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware(>= 3.0)
+Filename: debs/libgpg-error_1.19-1_iphoneos-arm.deb
+Size: 47326
+MD5sum: 432a5a9abade5e46b440f1bdf4d71ca0
+SHA1: 8e73b36051aecbe458347832a28c026796d80041
+SHA256: a462f11550e12460a2f9704128168116f9ea080a08dc02980e52861fb9120096
+Section: Security
+Priority: optional
+Homepage: http://www.gnupg.org/
+Description: GnuPG's error management library
+  GnuPG's error management library
+  In this version a lot of security vulnerabilities are fixed since
+ Saurik's version.
+Depiction: http://ios-webstack.tk/cydia/depictions/libgpg-error
+Name: GnuPG Errors
+Role: developer
+
+Package: libgsasl
+Version: 1.8.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 116
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gcrypt, libidn, libntlm
+Filename: debs/libgsasl_1.8.0-1_iphoneos-arm.deb
+Size: 39756
+MD5sum: c3dece2f38467100487c9b87f94fd9af
+SHA1: 8571754a43209930acff52f36360dc83ed7ff7e5
+SHA256: dde2aef3628611f440874930eba37a9b76d51d4874feda3c986299755bea4816
+Section: Security
+Priority: optional
+Homepage: http://josefsson.org/libgsasl
+Description: Libgsasl is an implementation of the Simple Authentication and Security Layer framework and a few common SASL mechanisms.
+  Libgsasl is an implementation of the Simple Authentication and
+ Security Layer framework and a few common SASL mechanisms.
+  This package contains the shared GNU SASL library.
+Tag: purpose::library, role::hacker
+Name: libgsasl
+Role: hacker
+
+Package: libgsasl-dev
+Version: 1.8.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 80
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgsasl
+Filename: debs/libgsasl-dev_1.8.0-1_iphoneos-arm.deb
+Size: 8336
+MD5sum: 2a3d2ee5398608706d6e603c12a2dcfe
+SHA1: c4e9bba99cbdfb96190d5a90dce1c1bdfe1e773a
+SHA256: 8a5b400648638bb348cfe087aef2db750e2bd9e56df0bf71357f819fe33eb882
+Section: Security
+Priority: optional
+Homepage: http://josefsson.org/libgsasl
+Description: Libgsasl is an implementation of the Simple Authentication and Security Layer framework and a few common SASL mechanisms.
+  Libgsasl is an implementation of the Simple Authentication and
+ Security Layer framework and a few common SASL mechanisms.
+  This package contains the GNU SASL library headers.
+Tag: purpose::library, role::hacker
+Name: libgsasl-dev
+Role: hacker
+
+Package: libidn
+Version: 1.28-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 300
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libidn_1.28-2_iphoneos-arm.deb
+Size: 54094
+MD5sum: 7d9f7bfcedee511b7b86a88a9f067401
+SHA1: 0cbf9368f6fd52ba933a489a4772b23855bbd7e6
+SHA256: 5f6f35b9a917ca18e74bec883d17e47adb3a76f975a8c2dcea5b552a4d76720e
+Section: Networking
+Priority: optional
+Homepage: http://www.gnu.org/software/libidn
+Description: Libidn's purpose is to encode and decode internationalized domain names.
+  Libidn's purpose is to encode and decode internationalized domain
+ names.
+  This package contains the shared IDN library.
+Tag: purpose::library, role::hacker
+Name: libidn
+Role: hacker
+
+Package: libidn-dev
+Version: 1.28-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libidn
+Filename: debs/libidn-dev_1.28-2_iphoneos-arm.deb
+Size: 12064
+MD5sum: 3916b991b43dd30660207ac59cc9efa2
+SHA1: f2435b336cd54571e9a4724d7447cf854e12316f
+SHA256: 71ff8375b99db74c74a79c84c892f7940f7130fda1ec012ef0570fc88e7c69e9
+Section: Networking
+Priority: optional
+Homepage: http://www.gnu.org/software/libidn
+Description: Libidn's purpose is to encode and decode internationalized domain names.
+  Libidn's purpose is to encode and decode internationalized domain
+ names.
+  This package contains the IDN library headers.
+Tag: purpose::library, role::hacker
+Name: libidn-dev
+Role: hacker
+
+Package: libjpeg
+Version: 8d-1-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 400
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: jpeg
+Filename: debs/libjpeg_8d-1-5_iphoneos-arm.deb
+Size: 165094
+MD5sum: 6d2795072f270eff85d2eefeffb20674
+SHA1: 96fb2d24fa2750db94fb02789ad2f29d07bd04cf
+SHA256: f4070bbfc5260990249a7d16affe2664b2065187e0ac19ddde5d4aea89ecb287
+Section: Multimedia
+Homepage: http://www.ijg.org
+Description: The Independent JPEG Group's library is a library for handling JPEG files
+  A library for handling JPEG files.
+  This package contains the shared JPEG library from the the independent
+ JPEG Group's.
+Tag: purpose::library, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: hacker
+
+Package: libjpeg-dev
+Version: 8d-1-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libjpeg
+Filename: debs/libjpeg-dev_8d-1-5_iphoneos-arm.deb
+Size: 21306
+MD5sum: fe8b15373772eaea9f5372bba9b9a267
+SHA1: c27856129e83764eb45084ef099374f597db3efb
+SHA256: 21b74859923556a8b2f02142b2677ad9808dcf687dfe571f2568bc952e253855
+Section: Multimedia
+Homepage: http://www.ijg.org
+Description: The Independent JPEG Group's library is a library for handling JPEG files
+  A library for handling JPEG files.
+  This package contains the libjpeg headers.
+Tag: purpose::library, role::developer
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: developer
+
+Package: libmcrypt
+Version: 2.6.8-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 280
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libmcrypt_2.6.8-5_iphoneos-arm.deb
+Size: 70680
+MD5sum: a33bf7784a72c27f88cb4875635b49b6
+SHA1: a2a30c9a3f7516f2771219dd86e698ad4b1666ab
+SHA256: f5a0ff2793a7a84b2b91abdf3750636eb49de650cb49cea8668eb8fa91f33dd0
+Section: Security
+Description: Libmcrypt allows you to use a wide range of encryption function
+  Libmcrypt allows you to use a wide range of encryption function.
+  This package contains the shared mcrypt library.
+Tag: purpose::library, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: hacker
+
+Package: libmcrypt-dev
+Version: 2.6.8-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 76
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libmcrypt
+Filename: debs/libmcrypt-dev_2.6.8-5_iphoneos-arm.deb
+Size: 5916
+MD5sum: ebc0b2fc8177ed968c28454a33e0a796
+SHA1: 7dc72e9c55c11e80e41c733e0d734debf7af8796
+SHA256: 37185226ed9837ea4bf3777f33069019fecf0fbd7bf7cdf5680f469035db8867
+Section: Security
+Description: libmcrypt allows you to use a wide range of encryption function
+  libmcrypt allows you to use a wide range of encryption function.
+  This package contains the libmcrypt headers.
+Tag: purpose::library, role::developer
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: developer
+
+Package: libntlm
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 56
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libntlm_1.4-2_iphoneos-arm.deb
+Size: 12462
+MD5sum: ab88f16798c25e39b3a1e9bb3e355691
+SHA1: d84c6a94cd0585cc77b0520d7d1c8c7e28c06768
+SHA256: 4e587aad7f3fa89d289204f48a7cacb07bbc333f375f073624ba4c57b1eed5b2
+Section: Networking
+Priority: optional
+Homepage: http://www.nongnu.org/libntlm
+Description: Libntlm implements Microsoft's NTLM authentication.
+  Libntlm implements Microsoft's NTLM authentication.
+  This package contains the shared NTLM library.
+Tag: purpose::library, role::hacker
+Name: Libntlm
+Role: hacker
+
+Package: libntlm-dev
+Version: 1.4-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 104
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libntlm
+Filename: debs/libntlm-dev_1.4-2_iphoneos-arm.deb
+Size: 12056
+MD5sum: 9bd901b4d8317870580085149a912f67
+SHA1: 2ed40f829ef85658d7bb39283dc95cf5595f4ee2
+SHA256: a46454d9603c24e4940bcd6f228e8158ebe85f2b73b1f6f0f1aa1c3c7f6df030
+Section: Networking
+Priority: optional
+Homepage: http://www.nongnu.org/libntlm
+Description: Libntlm implements Microsoft's NTLM authentication.
+  Libntlm implements Microsoft's NTLM authentication.
+  This package contains the NTLM library headers.
+Tag: purpose::library, role::hacker
+Name: Libntlm-dev
+Role: hacker
+
+Package: libpng
+Version: 1.2.50-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 460
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: png
+Filename: debs/libpng_1.2.50-5_iphoneos-arm.deb
+Size: 80332
+MD5sum: ba694e0cc02aa4a84a2e1a6e654c1cfe
+SHA1: 1d8aaedf7cceaf3a109a6b8871cd6bb0e6e4769e
+SHA256: 5904cfb3d595f93ffc78c118944b7dc4daeca12c7fc36eec77a8bc5fe29328c9
+Section: Multimedia
+Priority: optional
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Description: Library for manipulating PNG files
+  Library for manipulating PNG files.
+  This package contains the shared PNG library.
+  Version 1.2.50 removes a potential security vulnerability so all users
+ are recommended to upgrade immediately.
+Tag: purpose::library, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: hacker
+
+Package: libpng-dev
+Version: 1.2.50-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 268
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpng
+Filename: debs/libpng-dev_1.2.50-5_iphoneos-arm.deb
+Size: 42900
+MD5sum: e985a5c536cf04d1a5e5497c0807fa3f
+SHA1: 36b55344d8464031add43fadd02c153ead690d1e
+SHA256: 0361adedd28368a63f69917ab8882e702eff6d9cc7af79eee2e0ed5f0dee745a
+Section: Multimedia
+Priority: optional
+Homepage: http://www.libpng.org/pub/png/libpng.html
+Description: Library for manipulating PNG files
+  This package contains the libpng headers.
+  Version 1.2.50 removes a potential security vulnerability so all users
+ are recommended to upgrade immediately.
+Tag: purpose::library, role::developer
+Author: J. Anrugas <j.anrugas@gmail.com>
+Role: developer
+
+Package: libpopt
+Version: 1.16-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 80
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/libpopt_1.16-2_iphoneos-arm.deb
+Size: 19176
+MD5sum: bcf33c595e1e58127a4d69ae5c6a0757
+SHA1: 51276cc9d7894eee9d272f13d100936aa1b15d08
+SHA256: c18a5c851f0ae4473bf6e426b04dfe73ad9a179d4aa829f87c335ac3533e5537
+Section: Development
+Priority: optional
+Homepage: http://rpm5.org/files/popt/
+Description: The Popt library exists essentially for parsing command line options.
+  The Popt library exists essentially for parsing command line options.
+  This package contains the shared Popt library.
+Tag: purpose::library, role::hacker
+Name: libpopt
+Role: hacker
+
+Package: libpopt-dev
+Version: 1.16-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 64
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpopt
+Filename: debs/libpopt-dev_1.16-2_iphoneos-arm.deb
+Size: 6700
+MD5sum: 0aea1f87fcb8cf7049d97156f73e9ba2
+SHA1: e79207e1c76e8fe36275a79be68da2f73e9899e3
+SHA256: b0a85a15b8039c9f71edb85a85c7b987f5a465d08f020021c9ef6e0278ccc2b0
+Section: Development
+Priority: optional
+Homepage: http://rpm5.org/files/popt/
+Description: The Popt library exists essentially for parsing command line options.
+  The Popt library exists essentially for parsing command line options.
+  This package contains the Popt library headers.
+Tag: purpose::library, role::hacker
+Name: libpopt-dev
+Role: developer
+
+Package: libtiff
+Version: 4.0.3-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1064
+Pre-Depends: dpkg (>= 1.14.25-8)
+Replaces: tiff
+Filename: debs/libtiff_4.0.3-5_iphoneos-arm.deb
+Size: 313382
+MD5sum: 5db8bae98ea02808b876ba078b64dff3
+SHA1: e1bb7aeb006151697a01690bbfb0bf3537b894e4
+SHA256: 17baa381cff4d2eb7f2b513eed7dedd9731242559d324a8c9502f7678683730f
+Section: Multimedia
+Homepage: http://www.remotesensing.org/libtiff/
+Description: Tagged Image File Format (TIFF) library.
+  Tagged Image File Format (TIFF) library.
+  A library for handling TIFF files.
+  This package contains the shared TIFF library .
+Tag: purpose::library, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Name: libtiff
+Role: hacker
+
+Package: libtiff-dev
+Version: 4.0.3-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libtiff
+Filename: debs/libtiff-dev_4.0.3-5_iphoneos-arm.deb
+Size: 18434
+MD5sum: c656b708fb6c596b7d72a9eee2b1f0ed
+SHA1: 6a36dd5e27e68985852a13c584c2461007432947
+SHA256: 2b97ae973b4487901e48d5d51b4bee735ff542e53e9688e20d3afbc1b5334018
+Section: Multimedia
+Homepage: http://www.remotesensing.org/libtiff/
+Description: Tagged Image File Format (TIFF) library.
+  Tagged Image File Format (TIFF) library.
+  A library for handling TIFF files.
+  This package contains the libtiff headers.
+Tag: purpose::library, role::developer
+Author: J. Anrugas <j.anrugas@gmail.com>
+Name: libtiff-dev
+Role: developer
+
+Package: lighttpd-atv
+Version: 1.4.35-9
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 908
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, pcre, uuid, firmware(>= 3.0), gawk, adv-cmds
+Replaces: lighttpd
+Filename: debs/lighttpd-atv_1.4.35-9_iphoneos-arm.deb
+Size: 195910
+MD5sum: 6961b1f9ac0ab3d9bea23c74bbce5400
+SHA1: 53e3eb5524364528b722f69674ff53959124c209
+SHA256: 3df3977ffb466805f7b581e2657e12c77d0df3379cd80eaaf657f4bba6ef1bc4
+Section: Networking
+Priority: optional
+Description: A very small, supposedly fast, webserver. Have a look at http://goo.gl/LXfUB .
+  Lighttpd is a very small, supposedly fast, webserver.
+Tag: purpose::daemon, role::hacker
+Role: hacker
+
+Package: lighttpd-atv
+Version: 1.4.36-10
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 908
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, pcre, uuid, firmware(>= 3.0), gawk, adv-cmds
+Replaces: lighttpd
+Filename: debs/lighttpd-atv_1.4.36-10_iphoneos-arm.deb
+Size: 194054
+MD5sum: 6a77966790932866b7fd7909b9373649
+SHA1: 08e5691ad12b1ab841dbb29161aabd48d6b90c2b
+SHA256: 0476d461a61a35c9fb1c06f3a2d0e26e995f24b1f4aff47cdd1da3c0548fa504
+Section: Networking
+Priority: optional
+Description: A very small, supposedly fast, webserver. Have a look at http://ios-webstack.tk .
+  Lighttpd is a very small, supposedly fast, webserver.
+Tag: purpose::daemon, role::hacker
+Role: hacker
+
+Package: lighttpd-atv
+Version: 1.4.36-11
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 908
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, pcre, uuid, firmware(>= 3.0), gawk, adv-cmds
+Conflicts: lighttpd
+Replaces: lighttpd
+Filename: debs/lighttpd-atv_1.4.36-11_iphoneos-arm.deb
+Size: 194088
+MD5sum: 9f07e92f2386fb6e5ccd9669c8c2b014
+SHA1: 5e4b0e63538d3d81ab044b9d64bb75fa4f822240
+SHA256: 16e5f2ba4652e033531482d938d23682781d869fbc5acf80a594afff083fc31d
+Section: Networking
+Priority: optional
+Description: A very small, supposedly fast, webserver. Have a look at http://ios-webstack.tk .
+  Lighttpd is a very small, supposedly fast, webserver.
+Tag: purpose::daemon, role::hacker
+Role: hacker
+
+Package: logrotate
+Version: 3.8.9-6
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 208
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpopt, firmware(>= 3.0), gzip
+Filename: debs/logrotate_3.8.9-6_iphoneos-arm.deb
+Size: 48392
+MD5sum: 1f91ee95b3189c09839d3b0cf93d6e5f
+SHA1: 2cbf8592a1bbc9eecd6b97603227c6e734920ab4
+SHA256: 8a61ae891c1b3c3fcaf50d7051f913a16b7604f5ede7ce1bada2ecaa8f367f74
+Section: Utilities
+Priority: optional
+Description: logrotate is designed to ease administration of systems that generate large numbers of log files.
+  logrotate is designed to ease administration of systems that generate
+ large numbers of log files.
+  It allows automatic rotation, compression, removal, and mailing of log
+ files. Each log file may be handled daily, weekly, monthly, or when it
+ grows too large.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: logrotate
+Version: 3.9.1-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 216
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libpopt, firmware(>= 3.0), gzip
+Filename: debs/logrotate_3.9.1-1_iphoneos-arm.deb
+Size: 49442
+MD5sum: 20edaca418b44a6fa5c23190f42a9131
+SHA1: 2ec4c42241ab81aa5457aa4f588be99cb191dec5
+SHA256: d5558fe8826b8549ab2f8a71d48f0f6df8e9dce34497c72d204d35b883ef3fee
+Section: Utilities
+Priority: optional
+Description: logrotate is designed to ease administration of systems that generate large numbers of log files.
+  logrotate is designed to ease administration of systems that generate
+ large numbers of log files.
+  It allows automatic rotation, compression, removal, and mailing of log
+ files. Each log file may be handled daily, weekly, monthly, or when it
+ grows too large.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: mpop
+Version: 1.0.28-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 140
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgsasl, libidn, openssl, firmware(>= 3.0)
+Filename: debs/mpop_1.0.28-2_iphoneos-arm.deb
+Size: 42260
+MD5sum: 3994d34081936f2c4a252485ea10e4c8
+SHA1: 8243a4b7a8014473791f0330802a82d7078756a2
+SHA256: 386e71235b9876502b14769c25a6de2c4a2950addf3435d653dd1764f22873d1
+Section: Networking
+Priority: optional
+Description: A POP3 client. It retrieves mail from POP3 mailboxes and forwards it. (Like fetchmail do)
+  mpop is a POP3 client. It retrieves mail from POP3 mailboxes and
+ forwards it. (Like fetchmail do)
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: mpop
+Version: 1.2.2-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 144
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgsasl, libidn, openssl, firmware(>= 3.0)
+Filename: debs/mpop_1.2.2-1_iphoneos-arm.deb
+Size: 43560
+MD5sum: fdeda80975558cffea8d02aeec163375
+SHA1: 48fa1b58bbf6e4e261235a680833f3d686ce679e
+SHA256: f60997f147b809572da94076f8a15c8686de9f7db4c211436892be1d0161a2bc
+Section: Networking
+Priority: optional
+Description: A POP3 client. It retrieves mail from POP3 mailboxes and forwards it. (Like fetchmail do)
+  mpop is a POP3 client. It retrieves mail from POP3 mailboxes and
+ forwards it. (Like fetchmail do)
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: msmtp
+Version: 1.4.31-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 128
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgsasl, libidn, openssl, firmware(>= 3.0)
+Filename: debs/msmtp_1.4.31-2_iphoneos-arm.deb
+Size: 36100
+MD5sum: 662b33230db8f506022df5344d9c7045
+SHA1: 02891e70cf209668fd4f06795dcd3e6e03526f2b
+SHA256: 996b7761ba189413305567f41926ced544835fd23ada6f0f30ce1bd83771a0d0
+Section: Networking
+Priority: optional
+Description: msmtp is an SMTP client.
+  msmtp is an SMTP client.
+  In the default mode, it transmits a mail to an SMTP server (for
+ example at a free mail provider) which takes care of further delivery.
+  To use this program with your mail user agent (MUA), create a
+ configuration file with your mail account(s) and tell your MUA to call
+ msmtp instead of /usr/sbin/sendmail.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: msmtp
+Version: 1.6.1-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 136
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgsasl, libidn, openssl, firmware(>= 3.0)
+Filename: debs/msmtp_1.6.1-1_iphoneos-arm.deb
+Size: 39022
+MD5sum: 287650f05730222533b581b31e930f33
+SHA1: 447c981036f8d0d2fc6dd9ee68c9bc5dc642fd83
+SHA256: dbcfc5b9c38298d9b90f44d14d6693577a6b6d9a9ac77614c7dd90617e98358b
+Section: Networking
+Priority: optional
+Description: msmtp is an SMTP client.
+  msmtp is an SMTP client.
+  In the default mode, it transmits a mail to an SMTP server (for
+ example at a free mail provider) which takes care of further delivery.
+  To use this program with your mail user agent (MUA), create a
+ configuration file with your mail account(s) and tell your MUA to call
+ msmtp instead of /usr/sbin/sendmail.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: mysql-atv
+Version: 5.1.71-17
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 17640
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware (>= 3.0), ncurses, inetutils, gawk, adv-cmds
+Conflicts: com.was.mysql, mysql, mysql-atv (<< 5.1.66)
+Replaces: mysql-atv
+Filename: debs/mysql-atv_5.1.71-17_iphoneos-arm.deb
+Size: 3380926
+MD5sum: c27ede98da43b8869c31f3cfce27d41a
+SHA1: 379ce128b58c33fd98fa30fb972bcb57e212303b
+SHA256: b56a74d0cf6b17a4882f197f9f355ed05e9a61248a98678733c3ef00cab614ea
+Section: Data Storage
+Priority: optional
+Description: MySQL relational database management system server. Have a look at http://goo.gl/LXfUB .
+  MySQL-Server Branch Version 5.1.x
+Tag: purpose::daemon, role::hacker
+Role: hacker
+
+Package: mysql-atv
+Version: 5.1.73-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 16732
+Pre-Depends: dpkg (>= 1.14.25-8), gawk, coreutils
+Depends: firmware (>= 3.0), ncurses, inetutils, gawk, adv-cmds, sed
+Conflicts: com.was.mysql, mysql, mysql-atv (<< 5.1.66)
+Replaces: mysql-atv
+Filename: debs/mysql-atv_5.1.73-2_iphoneos-arm.deb
+Size: 3348300
+MD5sum: 524bcbf6e8a266e155aee22e199fe740
+SHA1: 66e7f6a4b8e1f44f3ec643fd5995f455f8cc4e48
+SHA256: 0f2124ae91cb14df427772db158ff30303546d51eb822399b7bd18ca1331af82
+Section: Data Storage
+Priority: optional
+Description: MySQL relational database management system server. Have a look at http://ios-webstack.tk
+  MySQL-Server Branch Version 5.1.x
+Tag: purpose::daemon, role::hacker
+Role: hacker
+
+Package: nano
+Version: 2.4.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 424
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: ncurses
+Filename: debs/nano_2.4.0-1_iphoneos-arm.deb
+Size: 102858
+MD5sum: 050f7c4a1f65f50a734eb0b4416f093a
+SHA1: 8d96e19ed3d7b5ff407328e8dd86fa05d17e204d
+SHA256: fa53c317d4b272269b31a50391c40d64c6a16ef70baf39c8914ae5081b8a31d7
+Section: Text_Editors
+Priority: standard
+Description: GNU nano is a small and friendly terminal-based text editor.
+  GNU nano is a small and friendly terminal-based text editor.
+Depiction: http://ios-webstack.tk/cydia/depictions/nano
+Role: hacker
+
+Package: net.angelxwind.airspeaker
+Version: 1.4.5
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 5768
+Depends: preferenceloader, net.angelxwind.karenprefs (>= 1.3)
+Filename: debs/nodelete-net.angelxwind.airspeaker.deb
+Size: 3262806
+MD5sum: 5367a244024fe9f764c0a1aa2d616824
+SHA1: 61c689afce00e0318cb9ca7d60d5efadfb02b52b
+SHA256: 6761e3d0becf2d79c7db94a29e60f793fbf17795ef1b749d7b210e6a5d4900a3
+Section: Utilities
+Homepage: https://cydia.akemi.ai/
+Description: Use your iOS device as an AirPlay speaker!
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.airspeaker
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.airspeaker.png
+Name: AirSpeaker
+
+Package: net.angelxwind.allmailactions
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.allmailactions.deb
+Size: 714
+MD5sum: 9cce216687bc3670b09a9a4c25aedb57
+SHA1: bfacf6d00e127fdb6e3a1ddc35b3f2d685a07759
+SHA256: 08a51ab84128f410f28e0f8772c56841868b7b69d58e6fc134147bda3fdc342a
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: All Mail Actions (mikoto)
+
+Package: net.angelxwind.android-4x-pattern-lock
+Version: 1.3.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Conflicts: net.angelxwind.ics-jb-alxt-theme
+Replaces: net.angelxwind.ics-jb-alxt-theme
+Filename: debs/net.angelxwind.android-4x-pattern-lock.deb
+Size: 539916
+MD5sum: 75fba8701cf372ff11118f87a4d86e16
+SHA1: 42942fe4e7bd029c1e58f7e4c48affbc1c0bfa47
+SHA256: 1c0a910d4a7a95132e6b044aef579ca763352873541c27b5488fb7216107f26a
+Section: Themes
+Homepage: https://cydia.angelxwind.net/
+Description: Android 4.x pattern lock theme for AndroidLock XT.
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.android-4x-pattern-lock
+Name: Android 4.x Pattern Lock for AndroidLockXT
+
+Package: net.angelxwind.appsync40plus
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Pre-Depends: firmware (>= 4.0), firmware (<< 5.0)
+Conflicts: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Replaces: us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Provides: appsync, us.hackulo.appsync40, us.hackulo.appsync41, us.hackulo.appsync42
+Filename: debs/net.angelxwind.appsync40plus.deb
+Size: 9202
+MD5sum: 4450d7c556bdf0504b14d678da5e5362
+SHA1: 7b0040049afef1d0309c108bcf0a7ed9d19921d4
+SHA256: 0d20fd163cfa37f4e63f054516d9b7c0f68801cf517594dbe2145faf50c5c8a7
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: AppSync for iOS 4 allows you to sync and install unsigned iOS applications. Only for iOS 4.
+Author: Karen/あけみ, Dissident <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.appsync40plus
+Name: AppSync for iOS 4.0
+
+Package: net.angelxwind.appsync50plus
+Version: 9999.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ
+Depends: ai.akemi.appsyncunified
+Filename: debs/nodelete-net.angelxwind.appsync50plus.deb
+Size: 674
+MD5sum: 30f2d771faec08a90f46e9ea9bcca388
+SHA1: a6c3ff380451876f86f468a9847e22dd4cf0af4a
+SHA256: ab430c3e7b2c8938916b0fb1be734b2247f5d3b630c53acda190887f7e7b267e
+Section: Tweaks
+Homepage: http://cydia.akemi.ai/
+Description: Transitional package for AppSync Unified.
+Tag: cydia::obsolete
+Author: Karen/あけみ
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified-transitional-legacy
+Name: AppSync Unified Transitional Package (50plus)
+
+Package: net.angelxwind.appsync60plus
+Version: 9999.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ
+Depends: ai.akemi.appsyncunified
+Filename: debs/nodelete-net.angelxwind.appsync60plus.deb
+Size: 676
+MD5sum: 3f09d5e61f2619367e904b517f08be36
+SHA1: 5bb1517325f29f95b3e5c5a15f8320de4a15b57e
+SHA256: 9e459c23fe9052bfe27cda8e7fc54ecf1b465a272c909024462c7bf7a420a23a
+Section: Tweaks
+Homepage: http://cydia.akemi.ai/
+Description: Transitional package for AppSync Unified.
+Tag: cydia::obsolete
+Author: Karen/あけみ
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified-transitional-legacy
+Name: AppSync Unified Transitional Package (60plus)
+
+Package: net.angelxwind.appsync70plus
+Version: 9999.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ
+Depends: ai.akemi.appsyncunified
+Filename: debs/nodelete-net.angelxwind.appsync70plus.deb
+Size: 676
+MD5sum: 1b60483d38c4e65daf5bc2dab18365d5
+SHA1: 61836f403c49578e5d8ab0e1ac69c4248ffdc355
+SHA256: 4788595238c8b0ef9f3060ff9677d4e67bbc3d5315ea681845e5eed6bcae7f23
+Section: Tweaks
+Homepage: http://cydia.akemi.ai/
+Description: Transitional package for AppSync Unified.
+Tag: cydia::obsolete
+Author: Karen/あけみ
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified-transitional-legacy
+Name: AppSync Unified Transitional Package (70plus)
+
+Package: net.angelxwind.appsyncunified
+Version: 9999.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ
+Depends: ai.akemi.appsyncunified
+Filename: debs/nodelete-net.angelxwind.appsyncunified.deb
+Size: 654
+MD5sum: 63f4c2b1d874b1fede320088bc219376
+SHA1: 582375641a37983d236fd6f94f8762ccb80d753a
+SHA256: 9e0231602e8e628730f01787c9f1158cb13cab93b8fba1df57374d841f7a5a0b
+Section: Tweaks
+Homepage: http://cydia.akemi.ai/
+Description: Transitional package for AppSync Unified.
+Tag: cydia::obsolete
+Author: Karen/あけみ
+Depiction: https://cydia.akemi.ai/?page/ai.akemi.appsyncunified-transitional
+Name: AppSync Unified Transitional Package
+
+Package: net.angelxwind.bettergooglemaps
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.bettergooglemaps.deb
+Size: 718
+MD5sum: a9fa332ac2b4b8be2d9b7f71a98d72a3
+SHA1: 4d373835e4abd59dd77ac41cc4583aa15dc922ff
+SHA256: 247bbf2fe6a3cde65d928318e6194d65a3cf15c947f658e10f2539b29154e399
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Better Google Maps (mikoto)
+
+Package: net.angelxwind.betteryoutube
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.betteryoutube.deb
+Size: 716
+MD5sum: ac22c59af7d4015eaf42672ef31ad2ac
+SHA1: de169998881bfe78f6e2df0589a6dac39a51889f
+SHA256: e03cdbdf5e562879d8f5e07df2cfaa3048dbe5c219c06d4234641db6d8ae13ce
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Better YouTube (mikoto)
+
+Package: net.angelxwind.cesiumhelper
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 1736
+Depends: mobilesubstrate, firmware (>= 7.0), applist, net.angelxwind.karenprefs (>= 1.5)
+Filename: debs/nodelete-net.angelxwind.cesiumhelper.deb
+Size: 1261522
+MD5sum: c7142b6fb9b1bef4542347560e821a4c
+SHA1: 448e93f49e071eb2736765fff07649bfc8aef9dc
+SHA256: d018bf27732bb3f4c5f8ceb48e3cf7090fd8d70f676c0fedc0eab4c8fb1de128
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Enhance Cesium's integration with iOS!
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.cesiumhelper
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.cesiumhelper.png
+Name: CesiumHelper
+
+Package: net.angelxwind.clitools
+Version: 1.3.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Depends: syslogcmdline, adv-cmds, com.innoying.sbutils, cycript | firmware (>= 11.0), irssi | firmware (>= 11.0), com.autopear.installipa, org.thebigboss.cacerts, com.eswick.ondeviceconsole, org.thebigboss.cutils, apt7, basic-cmds, bootstrap-cmds, bzip2, class-dump | firmware (>= 11.0), coreutils, developer-cmds, diskdev-cmds, file-cmds, gawk, gdb | firmware (>= 11.0), git, gzip, iokittools, less, make, com.conradkramer.open, nano, network-cmds, ldid, rsync, shell-cmds, system-cmds, com.ericasadun.utilities | firmware (>= 11.0), socat, screen, top, uikittools, findutils, inetutils, diffutils, lsof, subversion | firmware (>= 11.0), vim, xar | firmware (>= 11.0), tar, patch, unrar, unzip, wget, whois | firmware (>= 11.0), xml2 | firmware (>= 11.0), zip, p7zip
+Filename: debs/net.angelxwind.clitools.deb
+Size: 996
+MD5sum: bdeb7fd30f835a0d9d38ea87721bc50c
+SHA1: 13c09d00a36301da3b44e6fa4cfc984dcaefa7e0
+SHA256: bd219ccb3fc98c1b86e93d80fdab12d6e441dfb4ce3b0b21858f4c4fef9b12b7
+Section: System
+Homepage: https://cydia.akemi.ai/
+Description: Metapackage for some CLI tools I use often.
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.clitools
+Name: CLI Tools
+
+Package: net.angelxwind.completeppsyncremover
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: mobilesubstrate
+Conflicts: com.teiron.ppsync, ppsync
+Filename: debs/net.angelxwind.completeppsyncremover.deb
+Size: 13332
+MD5sum: ceea1946bd0d0b680fb07153d44823fb
+SHA1: 0cdd4e4b649c3a3359ab206494d1474b972e407b
+SHA256: c28ad9cbba115e70356909109ca78c423cdfef8da4a7982267458e5d4fa0ef98
+Section: Utilities
+Homepage: https://cydia.angelxwind.net/
+Description: Completely removes traces of PPSync.
+Author: Karen/あけみ <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.completeppsyncremover
+Name: Complete PPSync Remover
+
+Package: net.angelxwind.euvolumelimitdisabler
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.euvolumelimitdisabler.deb
+Size: 724
+MD5sum: bb0129d48fd754883ed9dbaf964001df
+SHA1: 370a88e0375ab7e6f84f2b835284bc55cf73c19c
+SHA256: ff015a67da98f4c9feff3536bd67852c32fd1d44dd453acb1ecde3a8fbdc98ab
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: EU Volume Limit Disabler (mikoto)
+
+Package: net.angelxwind.facebookinternalsettings
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.facebookinternalsettings.deb
+Size: 724
+MD5sum: db4ca4ea6e81ca4455757c58efd5f5b3
+SHA1: 574bbfed248cc7db829105e2139c477ea81a872f
+SHA256: 35a43872b92aeba1cffee289452c04bd5823938c72ed5219835c69280a89ad39
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Facebook Internal Settings (mikoto)
+
+Package: net.angelxwind.ineffectivepower
+Version: 1.2.5
+Architecture: iphoneos-arm
+Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 168
+Depends: mobilesubstrate, firmware (>= 8.0)
+Conflicts: com.mohammadag.unicodesuppressor, com.imokhles.antieffective, com.sull.ineffectivepower
+Filename: debs/nodelete-net.angelxwind.ineffectivepower.deb
+Size: 3734
+MD5sum: 697651e5031e0df0802ee6bd229ad664
+SHA1: d5ab860acd8754e9adab34d1b32b1a1680a131a4
+SHA256: 0d1121bf3ebc2945adc643f1054cef69a34cd09421647123199e41465c4ccbda
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: Stop the infamous "Effective Power" text string from crashing CoreText!
+Author: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.ineffectivepower
+Name: IneffectivePower
+
+Package: net.angelxwind.internalfbicons
+Version: 1.4.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: winterboard
+Filename: debs/net.angelxwind.internalfbicons.deb
+Size: 401572
+MD5sum: 162d7d9c184933e0c6c15f445b84352a
+SHA1: ccc524f2290956b98edf1e0ef8516fa5eed7d1de
+SHA256: c1c36005b9efb13e76acbfe18fcae26e546a84435a73327abc471a710088bc94
+Section: Themes
+Homepage: https://cydia.angelxwind.net/
+Description: Facebook app icons used internally by employees.
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.internalfbicons
+Name: Internal FB Icons
+
+Package: net.angelxwind.iswipe
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Karen／明美 (angelXwind) <angelXwind@angelxwind.net>
+Installed-Size: 220
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/nodelete-net.angelxwind.iswipe.deb
+Size: 34114
+MD5sum: 716c3607e6d48d21ab1b30ac457761b7
+SHA1: c90b2a5a3b39692a79129150e5fa6ffdb9afeda7
+SHA256: ab4c18adc7a122faeeaf5fa0505244c5772cbfa360f8640eaee7778ecb72017a
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: First gesture-based keyboard for iOS!
+Author: Karen／明美 (angelXwind), wyndwarrior <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.iswipe
+Name: iSwipe
+
+Package: net.angelxwind.iswipe
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (>= 5.0), mobilesubstrate
+Filename: debs/net.angelxwind.iswipe.deb
+Size: 1965152
+MD5sum: 44bbae5ad8d55229bd267c8acdf06daa
+SHA1: 2e4651cbcabe8504d45b21fc82c65d9d0e550362
+SHA256: e2029c816a251850b859f201a1e9b775d41c27c8c8f9ae50b77953c5cd03e44c
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: Type words by swiping across the keyboard.
+Author: Andrew Liu (WyndWarrior), Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.iswipe
+Name: iSwipe
+
+Package: net.angelxwind.jellylockunified
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 6212
+Depends: firmware (>= 5.0), applist, mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs
+Conflicts: com.ravirajm.simplock, com.maxkatzmann.jellylock7, com.mkatzmann.jellylock
+Filename: debs/nodelete-net.angelxwind.jellylockunified.deb
+Size: 5550260
+MD5sum: c5394f2d8620da8382b18b67ad400d9d
+SHA1: 8a88d01d46d3f8e3bd0b4af65e68ac049e1c807b
+SHA256: 51aebd1f1f6734c4332e306854774cbcf0310e8929610e403ac556519d7d485f
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: A beautifully simple lockscreen application launcher.
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.jellylockunified
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.jellylockunified.png
+Name: JellyLock Unified
+
+Package: net.angelxwind.mikoto
+Version: 4.0.3
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 15548
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs (>= 1.4), net.angelxwind.karenlocalizer
+Conflicts: com.xcxiao.simplelsios10
+Filename: debs/nodelete-net.angelxwind.mikoto.deb
+Size: 11582804
+MD5sum: e1f49254a62ed949fd6d7d44c0b01043
+SHA1: 5717d7348bd1a23cc7bb94f659704409a21eeb8a
+SHA256: ea31dd47acfa2c397664ffb19e8bcc130d356d37fad49ccd6c45ebb32f06de69
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: Comprehensive iOS System/App Store App customisation suite
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.mikoto
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.mikoto.png
+Name: mikoto
+
+Package: net.angelxwind.mikoto
+Version: 4.1~kareninternal1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 16828
+Depends: firmware (>= 5.0), mobilesubstrate, preferenceloader (>= 2.2.0-1), net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer (>= 1.0.5)
+Conflicts: com.xcxiao.simplelsios10
+Filename: debs/net.angelxwind.mikoto_4.1~kareninternal1_iphoneos-arm.deb
+Size: 11721488
+MD5sum: 00e054432a4d68a67a43847abf7eb820
+SHA1: 56a4c8c14ef18b6752f17156e7e0796ce7275f0d
+SHA256: e8533f04a43d347668ac9ad8e26a02fabf2cad77cc5086cb767147f810f241cb
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Comprehensive iOS System/App Store App customisation suite
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.mikoto
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.mikoto.png
+Name: mikoto
+
+Package: net.angelxwind.mobileterminal-applesdk
+Version: 521-karen-2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Pre-Depends: firmware (>= 3.2), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: debs/net.angelxwind.mobileterminal-applesdk.deb
+Size: 248692
+MD5sum: fb2e35fd8ee6fe53963dd65fd659174c
+SHA1: c9da4581484e70761e440ac7a8e5b7e64c44497c
+SHA256: 1ad7e0d6c8cc90c546b8a63df85c5694a1bd2f4d6b150612183944ec7fe34a64
+Section: Terminal_Support
+Homepage: https://cydia.angelxwind.net
+Description: A Terminal emulator. This is a Terminal emulator for the iPhone. With it you can do all of your standard system administration tasks from anywhere: SSH into remote boxes, download files, edit configuration files, whatever.
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.mobileterminal-applesdk
+Name: MobileTerminal
+
+Package: net.angelxwind.noautospotlightkeyboard
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.noautospotlightkeyboard.deb
+Size: 724
+MD5sum: eedd82c1af41c9e076fbb1eced44521c
+SHA1: 1c1926a4d76a33d02653ad7f24af7f1d84db7c26
+SHA256: 4b0f79e09f95246d18112c93f4669c53f4902c662b8a0cb980c667677ba5d2c0
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: No Auto Spotlight Keyboard (mikoto)
+
+Package: net.angelxwind.nocalculatorinputlimit
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nocalculatorinputlimit.deb
+Size: 722
+MD5sum: d04da0d9ea42dcf28de2af7225e88433
+SHA1: dd66388e13e59036814856070f8ff17285babdcb
+SHA256: c2b74fece4842e51323814b231fdaa999062c2a9d076e69bd8a0dba29a3b7c8d
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: No Calculator Input Limit (mikoto)
+
+Package: net.angelxwind.nolschargingbattery
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nolschargingbattery.deb
+Size: 720
+MD5sum: a7a010a7e5b541fe0bef159261bd4583
+SHA1: 2fe544abc987fcce96fcefd823f121df2a879bbe
+SHA256: e3590e0951994b5d2eaee21750d5ceed20bb10b2249e519c2016675e9cccfb5f
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: No LS Charging Battery (mikoto)
+
+Package: net.angelxwind.noplsrecovery
+Version: 2.1.2
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.pushfix.recguard, com.sull.recoveryguardbeta, com.arefttt.norecoverstore
+Filename: debs/nodelete-net.angelxwind.noplsrecovery.deb
+Size: 5598
+MD5sum: e6f0fff137a97020bdcdbb9933927ad2
+SHA1: c7ff5dc7d1c4926d2069b6bcb3894f2f1366dada
+SHA256: 9ab21b474f5f5d996d47409222757a0b180b9ebf9870d3ff7ad3624e3bf13c32
+Section: Tweaks
+Homepage: https://cydia.angelxwind.net/
+Description: A tweak that prevents accidental updates/restores and thievery.
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.noplsrecovery
+Name: NO PLS RECOVERY
+
+Package: net.angelxwind.nospotlightdim
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nospotlightdim.deb
+Size: 714
+MD5sum: 9e8acc9f49a8b01e3f83e38a548e87ab
+SHA1: f27705b7fa9617feb6314c8ef88185409e1a5a75
+SHA256: a746bc663a8881670a858bedebcfdef6dbc5055782f885b8ee7278554269a8ab
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: No Spotlight Dim (mikoto)
+
+Package: net.angelxwind.nowallpapergradient
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.nowallpapergradient.deb
+Size: 718
+MD5sum: 0acdee84b136cd13364e329f7e20b073
+SHA1: 86e66c9dd2c726fbde0d596313eabe0951abb290
+SHA256: 08dfe0911aa6c89b5d03d8ee4be0be324881b75a1cc24a838c449cb04688fd0c
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: No Wallpaper Gradient (mikoto)
+
+Package: net.angelxwind.pineapplespinnerls
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 208
+Depends: mobilesubstrate, firmware (>= 7.0), com.dba-tech.lockpages
+Filename: debs/nodelete-net.angelxwind.pineapplespinnerls.deb
+Size: 51076
+MD5sum: cd70c5f6de511f386e1d2d378e7d9359
+SHA1: b318fca8fffbc972ac78e6aa6ec7ba2b0489053e
+SHA256: 212a50c8c6f39bbc1654bafb73f5ff2e7f54e359e0615caed8564dacf1bac2ad
+Section: Tweaks
+Description: Spin a pineapple on your lock screen!
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.pineapplespinnerls
+Name: PineappleSpinnerLS
+
+Package: net.angelxwind.preferenceorganizer2
+Version: 4.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 2116
+Depends: mobilesubstrate, preferenceloader (>= 2.2.3), firmware (>= 6.0), bash, net.angelxwind.karenprefs (>= 1.5), net.angelxwind.karenlocalizer
+Conflicts: com.phillipt.noappsettings, jp.r-plus.cloaky, me.qusic.preferenceorganizer, com.sull.preferenceorganizer, com.sull.preferenceorganizer2, com.sull.preferenceorganizer7
+Replaces: org.ilendsoft.preferenceorganizer, com.eliz.preferenceorganizer7
+Filename: debs/nodelete-net.angelxwind.preferenceorganizer2.deb
+Size: 1415540
+MD5sum: e600fe49117b2fc2187d60dbf7505971
+SHA1: 0d169562634e88d7fa1f61e4b92e85f5edce6c02
+SHA256: 76c7cc2a546c31086c4de98d054945dc0d7710728c3be77db2b79e195ecc435e
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Organises your Preferences app into several configurable categories for ease of navigation.
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.preferenceorganizer2
+Icon: file:///Library/KarenRepoIcons/net.angelxwind.preferenceorganizer2.png
+Name: PreferenceOrganizer 2
+
+Package: net.angelxwind.safestrat
+Version: 1.0.3-1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 196
+Filename: debs/nodelete-net.angelxwind.safestrat.deb
+Size: 3916
+MD5sum: 88b417f53cc7741ae03d6bb74fe833f0
+SHA1: 84df8df844daf12c52fd83aea9d8e2b005a064ba
+SHA256: c7dd5b190ddecb5570947f1fb79bee2ae1d155b0ce2ca67cda23498915d84e81
+Section: Utilities
+Homepage: http://cydia.angelxwind.net/
+Description: Volume-down at boot for SSH over USB
+Author: comex <karen@angelxwind.net>
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.safestrat
+Name: safestrat
+
+Package: net.angelxwind.sandboxpathfixer
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ <karen@akemi.ai>
+Installed-Size: 696
+Depends: mobilesubstrate, firmware (>= 8.0), com.rpetrich.rocketbootstrap (>= 1.0.2), net.angelxwind.karenprefs, applist
+Filename: debs/nodelete-net.angelxwind.sandboxpathfixer.deb
+Size: 23204
+MD5sum: 191c0f7fc3817119598160b1c3738331
+SHA1: fb7a7356ae7679f2c4b4e19e427aca6d7360e05b
+SHA256: be141a49b9e8a2aa2dc99766a2f34a8243588a90b1cb277c3bebebf49738761d
+Section: Tweaks
+Homepage: https://cydia.akemi.ai/
+Description: Fixes sandbox paths for certain apps that are broken in iOS 8.0 and above
+Author: Karen/あけみ <karen@akemi.ai>
+Depiction: https://cydia.akemi.ai/?page/net.angelxwind.sandboxpathfixer
+Name: Sandbox Path Fixer
+
+Package: net.angelxwind.showlsstatusclock
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.showlsstatusclock.deb
+Size: 720
+MD5sum: d77cc239c357e30a165e60a2e4435583
+SHA1: 7b986b37b8422323bcdb1bd489cd8f9559ae4f33
+SHA256: 789fa5ab208c8e1b4f42d02899e8eddeaa75b6e3c4c8173d74180c0be70db918
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Show LS Status Clock (mikoto)
+
+Package: net.angelxwind.shownotificationdates
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.shownotificationdates.deb
+Size: 720
+MD5sum: 38e5063dd4940c6cb43d485ef4bfd0e8
+SHA1: e4202e183fa5ab99ed3cbc077fdc28356bb68f1c
+SHA256: d39fba04c16ebd110a5e67c2b33e661fe9740fbada3bdd64b1e53dc366a40397
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Show Notification Dates (mikoto)
+
+Package: net.angelxwind.stash841
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: net.tihmstar.etasonuntether (>= 1.1.0), firmware (= 8.4.1)
+Filename: debs/net.angelxwind.stash841.deb
+Size: 1004
+MD5sum: 056dbabe7447460a4504159bbb41cc53
+SHA1: 834986ae8bf57f6ca30719c334e67664118e0288
+SHA256: 1ff89f9842ffbad6285c7f4e3b13e56e9ed90f037eee8b60664bd327a6305b22
+Section: System
+Homepage: https://cydia.angelxwind.net/
+Description: Enables stashing on #etasonJB (iOS 8.4.1)
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash841
+Name: Stashing for #etasonJB (8.4.1)
+
+Package: net.angelxwind.stash935fix
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depends: firmware (= 9.3.5)
+Filename: debs/net.angelxwind.stash935fix.deb
+Size: 970
+MD5sum: 38e4af9500bb5d6c1aaa7a975e8946e4
+SHA1: d56ecd3fa57d1c6e76494d8626edadf5c54af3d2
+SHA256: dc42cdb74d0cd2d0dc3928becad4482717b5a8aaa0f18f3051ae1b7065969481
+Section: System
+Homepage: https://cydia.angelxwind.net/
+Description: Fixes stashing on Phœnix (iOS 9.3.5)
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.stash935fix
+Name: Stashing Fix for Phœnix (9.3.5)
+
+Package: net.angelxwind.syscallfail
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Installed-Size: 196
+Depends: firmware (>= 7.0)
+Filename: debs/nodelete-net.angelxwind.syscallfail.deb
+Size: 2272
+MD5sum: 66e0bc70961648bcb17308716f99d958
+SHA1: ffc43e161eda18815a3c03cd1e0c458b529fd711
+SHA256: b0b5d609b67aed5e254a52cdaa704ba2b6760b42801eeb2c1bc43e9219f620d1
+Section: Utilities
+Homepage: https://cydia.angelxwind.net/
+Description: Proof of concept of a security vulnerability that exists in evasi0n7 1.0.3 and below.
+Author: Karen/あけみ (angelXwind) <karen@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.syscallfail
+Name: syscallfail
+
+Package: net.angelxwind.testflightfixer
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Filename: debs/net.angelxwind.testflightfixer.deb
+Size: 828
+MD5sum: c21535c782d7c2dc2dfcbec5d934be97
+SHA1: e7845e395821ed2951dd2dd96f3007eb8a7fa72b
+SHA256: f85bb9bfdfec073881bcf2f98309f88fccc22b3701eccf0a5e287bb47078d8da
+Section: Utilities
+Homepage: https://cydia.angelxwind.net/
+Description: Repairs provisioning profile permissions notably affecting TestFlight in some jailbroken iOS installs
+Author: Karen/あけみ (angelXwind) <angelXwind@angelxwind.net>
+Depiction: https://cydia.angelxwind.net/?page/net.angelxwind.testflightfixer
+Name: TestFlight/Provisioning Profile Fixer
+
+Package: net.angelxwind.trillianenhancer
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.trillianenhancer.deb
+Size: 714
+MD5sum: 7ebcc5bfef1159288fde981d4c728051
+SHA1: 870aaf28274bd9f11d3366005163657c8ada2f89
+SHA256: 2aebaacee8aa73328a6a2c6499b65f9ddaf85b562fbb2fdb887cbff60f9d0bbf
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Trillian Enhancer (mikoto)
+
+Package: net.angelxwind.unlimitedncnotifications
+Version: 8.88
+Architecture: iphoneos-arm
+Maintainer: Karen Tsai (angelXwind)
+Depends: firmware (>= 5.0), mobilesubstrate, net.angelxwind.mikoto
+Filename: debs/nodelete-net.angelxwind.unlimitedncnotifications.deb
+Size: 722
+MD5sum: 505240a889625eafe3add5c76f4b4b13
+SHA1: 501bac11ec1f428c5bb43516ec469999eb90d929
+SHA256: bfa4401e37707d147d6a4f6fd220ace98769a30b0b75299f5fa50c563537722e
+Section: Tweaks
+Homepage: http://cydia.angelxwind.net/
+Description: Transitional package for mikoto.
+Tag: cydia::obsolete
+Author: Karen Tsai (angelXwind)
+Depiction: http://cydia.angelxwind.net/?page/net.angelxwind.mikoto-transitional
+Name: Unlimited NC Notifications (mikoto)
+
+Package: netatalk3
+Version: 3.1.7-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 1748
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: berkeleydb, gcrypt, mdnsresponder, openssl, firmware(>= 3.0), findutils
+Conflicts: netatalk (<<3.1), miktr.switch.netatalk
+Filename: debs/netatalk3_3.1.7-4_iphoneos-arm.deb
+Size: 552248
+MD5sum: 24c43444c7789080f1c3bc2214548c7e
+SHA1: d054bdf80297a5164707b76382f9e566bcc6816f
+SHA256: 844de9620a12f370e4803dd888162d956753bb8c55281f43099339431a3e8781
+Section: Networking
+Priority: optional
+Homepage: http://netatalk.sourceforge.net/
+Description: Netatalk 3.x AFP File Server (iOS 8 ready)
+  Netatalk 3.x AFP File Server (iOS 8 ready)
+  Netatalk is a freely-available Open Source AFP fileserver.
+  A iOS system running Netatalk is capable of serving many Macintosh
+ clients simultaneously as an AppleShare file server (AFP).
+  Recommended Packages
+  - Netatalk 3.x Switch
+  - Insomnia
+Name: Netatalk 3.x (iOS 8 ready)
+Role: enduser
+
+Package: netatalk3-switch
+Version: 0.1-4
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 88
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware(>= 3.0), netatalk3, preferenceloader, com.ericasadun.utilities
+Conflicts: netatalk (<<3.1), miktr.switch.netatalk
+Filename: debs/netatalk3-switch_0.1-4_iphoneos-arm.deb
+Size: 5276
+MD5sum: 062d8a16d7cda59a766dd467f5d1c56d
+SHA1: 0d8a5d398305a9144b70261bde519d9827f46119
+SHA256: 0c374bce85b10782bc83dbe7ed394853478d76e264565eef050de0923e645adc
+Section: Networking
+Priority: optional
+Homepage: http://ios-webstack.tk
+Description: Netatalk 3.x Switch (iOS 8 ready)
+  Netatalk 3.x Switch (iOS 8 ready)
+  A switch to toggle Netatalk 3.x
+Name: Netatalk 3.x Switch (iOS 8 ready)
+Role: enduser
+
+Package: openssh
+Version: 6.9p1-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 4456
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_6.9p1-1_iphoneos-arm.deb
+Size: 605380
+MD5sum: 106d32bd7a6fd32a25dcd86e8fc96d14
+SHA1: 08144897aca8ebfdf0053210d668ad4b82b62550
+SHA256: 2317a8ec27ad20c3776019b86982c705ab92fdccc2fbb300425be34b80b8e78c
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+  OpenSSH (OpenBSD Secure Shell) is a set of computer programs providing
+ encrypted communication sessions over a computer network using the SSH
+ protocol.
+  This version is newer than Saurik's version.
+  .
+  I also recommend the following package:
+  'SSH Connect'
+Role: enduser
+
+Package: openssh
+Version: 7.1p1-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 4428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: debs/openssh_7.1p1-1_iphoneos-arm.deb
+Size: 588578
+MD5sum: 40abb2531385e4e9e8ba0cf0da537fd1
+SHA1: 87b35d9674f47a2295278131bfa50aeb63fff0eb
+SHA256: 84d98542375f2bbb1fced1ee76d52e13f98879886d738edc9e1fe28ca08abe12
+Section: Networking
+Priority: important
+Description: secure remote access between machines
+  OpenSSH (OpenBSD Secure Shell) is a set of computer programs providing
+ encrypted communication sessions over a computer network using the SSH
+ protocol.
+  .
+  I also recommend the following package:
+  'SSH Connect'
+Depiction: http://ios-webstack.tk/cydia/depictions/openssh
+Name: OpenSSH
+Role: enduser
+
+Package: openssl
+Version: 0.9.8zf-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 5940
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/openssl_0.9.8zf-1_iphoneos-arm.deb
+Size: 1035800
+MD5sum: 457507fc51c702ed159de74c1c7785e8
+SHA1: 47e299ac9f0b5ae0ce3a034c6208e074fd8f66d0
+SHA256: c9c24ff5132606fa7a797f44110252492b1ecc592bc4221233d56ec8dbede5d9
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools.
+  SSL library and cryptographic tools.
+  This version is newer than Saurik's version.
+Depiction: http://ios-webstack.tk/cydia/depictions/openssl
+Name: OpenSSL
+Role: developer
+
+Package: openssl
+Version: 0.9.8zg-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 5940
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/openssl_0.9.8zg-1_iphoneos-arm.deb
+Size: 1029416
+MD5sum: dfaa16036569cd19138b3a9c4b508bcd
+SHA1: 935cee572e75ba572d11dcae0dedae840d26dcf6
+SHA256: e47ba12b2690c8d41d9b17bdc8dc4ce62d174d98f096ebb0e5dba8e724806fda
+Section: Security
+Priority: standard
+Description: SSL library and cryptographic tools.
+  SSL library and cryptographic tools.
+  This version is newer than Saurik's version.
+Depiction: http://ios-webstack.tk/cydia/depictions/openssl
+Name: OpenSSL
+Role: developer
+
+Package: owncloud-webinstall
+Version: 1.2-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 52
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.linusyang.localeutf8
+Conflicts: owncloud-webinstall-atv
+Filename: debs/owncloud-webinstall_1.2-1_iphoneos-arm.deb
+Size: 5818
+MD5sum: 7a94335c5addcae3f35226c87b9c9dcd
+SHA1: b7b79d50c0afaa62ff3a5e5bef21df34358677b2
+SHA256: 6e4e4a14eaccfa015f623af0d6b14159bb143d3aba6b75390078466f1cb867a4
+Section: Networking
+Priority: optional
+Description: Web installer for the newest available ownCloud version. After the installation restart your lighttpd-Server, open Safari and load the side 'http://your_ios_device/setup-owncloud.php'.
+  Web installer for the newest available ownCloud version.
+  ownCloud is a flexible, open source file sync and share solution.
+ Whether using a mobile device,
+  a workstation, or a web client, ownCloud provides the ability to put
+ the right files at your employees.
+  Fingertips on any device in one simple-to-use, secure, private and
+ controlled solution.
+Role: hacker
+
+Package: php53
+Version: 5.3.29-18
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 19552
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, openssl, png, tiff, jpeg, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php54
+Filename: debs/php53_5.3.29-18_iphoneos-arm.deb
+Size: 3395908
+MD5sum: f1925d28fb9782984814cb9d0e68f41c
+SHA1: acd49cc948c09dd47daafb8f50b86b5b83a774fc
+SHA256: 15b379f214e98a93dc9ca358716e0f4131d03d5b97992985df4a3e66a00bac05
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP. Have a look at http://ios-webstack.tk .
+  The overly popular HTML templating language PHP.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php54
+Version: 5.4.43-33
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 25828
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Filename: debs/php54_5.4.43-33_iphoneos-arm.deb
+Size: 3185198
+MD5sum: cd67b97ff508550c4144a9a514686d6d
+SHA1: d64e14da6bf41ffde51e9e0e6cc2771d9c0e03e3
+SHA256: 743f4c9f14758c2ac4b6b67e4a00eb2ebcae78cd89ca33b24fde83d34965fdf8
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This package includes PHP 5.4.x with GD and MySQL support (PDO and
+ mysqli).
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  You have to place your PHP config file at /etc/php.ini
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you would like to get more package information, please have a look
+ at http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php54
+Version: 5.4.44-34
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 25836
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Filename: debs/php54_5.4.44-34_iphoneos-arm.deb
+Size: 3188326
+MD5sum: 2494dfa5157d707143d6c52f5b5cb296
+SHA1: 345d904d7a92b171f79307bc36f2f07e945b23a9
+SHA256: 467fdda8c29ec64375a98854c6e0bf09ce5dca910bd8f7c00779a3d09cf3735d
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This package includes PHP 5.4.x with GD and MySQL support (PDO and
+ mysqli).
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  You have to place your PHP config file at /etc/php.ini
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you would like to get more package information, please have a look
+ at http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php54
+Version: 5.4.45-35
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 25836
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Filename: debs/php54_5.4.45-35_iphoneos-arm.deb
+Size: 3185208
+MD5sum: 3f302fec75b82891357348ddcee995b1
+SHA1: 745e5ca5d6da88872e387d9a339fb96044b867a2
+SHA256: 5dceb244cbd718ebfb39016de79c762bd278d220d87989dbddb9ffcbd514bce4
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This package includes PHP 5.4.x with GD and MySQL support (PDO and
+ mysqli).
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  You have to place your PHP config file at /etc/php.ini
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you would like to get more package information, please have a look
+ at http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php55
+Version: 5.5.27-18
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 26704
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php54, php53
+Filename: debs/php55_5.5.27-18_iphoneos-arm.deb
+Size: 3427874
+MD5sum: 893b3aa0f6dd3a41fe4d6a62ab435ed1
+SHA1: b395866c13ea6f123569a932f27ff8382d23940c
+SHA256: 378d5bec348b821dc375dd8dd615da3d6ca5561a637f066bae1dbc82ccecc5ee
+Section: Scripting
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This packages includes PHP 5.5.x with OPcache, GD and MySQL support
+ (PDO and mysqli).
+  .
+  You have to place your PHP config file at /etc/php.ini
+  You will find a OPcache config sample file in /etc/php.d/
+  .
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  - 'touch-lighttpd-php-mysql' for iPhone/iPad
+  .
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you are interest in the package differences, have a look on
+ http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Depiction: http://ios-webstack.tk/cydia/depictions/php55
+Name: PHP55 (with OPcache)
+Role: hacker
+
+Package: php55
+Version: 5.5.28-7
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 26712
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php54, php53
+Filename: debs/php55_5.5.28-7_iphoneos-arm.deb
+Size: 3431726
+MD5sum: ca54ddc0cd4148b2bfafdccad5339af9
+SHA1: a7386cae9d701c84a9aeeaceb9159bfa4a2a231f
+SHA256: cf6ed9d4a9fc639765646095cb78a3cb4349cc1d62ae45f5d3fcd2c935e24896
+Section: Scripting
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This packages includes PHP 5.5.x with OPcache, GD and MySQL support
+ (PDO and mysqli).
+  .
+  You have to place your PHP config file at /etc/php.ini
+  You will find a OPcache config sample file in /etc/php.d/
+  .
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  - 'touch-lighttpd-php-mysql' for iPhone/iPad
+  .
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you are interest in the package differences, have a look on
+ http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Depiction: http://ios-webstack.tk/cydia/depictions/php55
+Name: PHP55 (with OPcache)
+Role: hacker
+
+Package: php55
+Version: 5.5.29-8
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 26712
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php54, php53
+Filename: debs/php55_5.5.29-8_iphoneos-arm.deb
+Size: 3426884
+MD5sum: 394b4a4c0f27e82482d7b3bd2ede95dc
+SHA1: da705d918b2fbe9388b86daa9bbfa36652fcfcb5
+SHA256: b4e17cd67a9b0f412e38bda2e402b10d5de9b19841bb17cabaeee02df1d2928b
+Section: Scripting
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This packages includes PHP 5.5.x with OPcache, GD and MySQL support
+ (PDO and mysqli).
+  .
+  You have to place your PHP config file at /etc/php.ini
+  You will find a OPcache config sample file in /etc/php.d/
+  .
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  - 'touch-lighttpd-php-mysql' for iPhone/iPad
+  .
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you are interest in the package differences, have a look on
+ http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Depiction: http://ios-webstack.tk/cydia/depictions/php55
+Name: PHP55 (with OPcache)
+Role: hacker
+
+Package: php56
+Version: 5.6.12-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 27108
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php55, php54, php53
+Filename: debs/php56_5.6.12-2_iphoneos-arm.deb
+Size: 3474686
+MD5sum: 9ce1aa5cefe508c7844feb02b08f28aa
+SHA1: 02ba65e63e2a43fb6231b4fe5445b013aaa7a4e0
+SHA256: 92af2270eeae08ac88954001b6025d7413478a4c79a9103b54cd8f4c8cc9a14d
+Section: Scripting
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This packages includes PHP 5.6.x with OPcache, GD and MySQL support
+ (PDO and mysqli).
+  .
+  You have to place your PHP config file at /etc/php.ini
+  You will find a OPcache config sample file in /etc/php.d/
+  .
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  - 'touch-lighttpd-php-mysql' for iPhone/iPad
+  .
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you are interest in the package differences, have a look on
+ http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Depiction: http://ios-webstack.tk/cydia/depictions/php56
+Name: PHP56 (with OPcache)
+Role: hacker
+
+Package: php56
+Version: 5.6.13-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 27112
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php55, php54, php53
+Filename: debs/php56_5.6.13-3_iphoneos-arm.deb
+Size: 3474638
+MD5sum: ec017e445b57268199c9424d2a7413ad
+SHA1: 56e53cf1017a0adccb1d1cfc8a5f35e1202fbb81
+SHA256: f391228df0fdcb0ba9f943dd7153c04bb6fce3606aaee5c63b39e900fd843610
+Section: Scripting
+Priority: optional
+Homepage: http://iOS-WebStack.tk/home.html
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+  .
+  This packages includes PHP 5.6.x with OPcache, GD and MySQL support
+ (PDO and mysqli).
+  .
+  You have to place your PHP config file at /etc/php.ini
+  You will find a OPcache config sample file in /etc/php.d/
+  .
+  .
+  This software was originally compiled for the AppleTV but it works on
+ all iOS devices.
+  .
+  With the additional cydia packages 'mysql-atv' and 'lighttpd-atv' you
+ are now free to host your own Content Management Systems (CMS), Blogs,
+ Bulletin Boards, File Servers.
+  Such as ownCloud, WebsiteBaker, Contao, TYPO3, WordPress, Joomla!,
+ phpBB, miniBB, etc.
+  .
+  If you would like keep it simple then just install one of the cydia
+ packages below:
+  - 'atv-lighttpd-php-mysql' for AppleTV
+  - 'ios-lighttpd-php-mysql' for iPhone/iPad
+  - 'touch-lighttpd-php-mysql' for iPhone/iPad
+  .
+  They includes this, the above mentioned packages, example config files
+ and daemon launchers for a whole web server solution stack.
+  .
+  If you are interest in the package differences, have a look on
+ http://ios-webstack.tk .
+Tag: purpose::console, role::hacker
+Author: J. Anrugas <j.anrugas@gmail.com>
+Depiction: http://ios-webstack.tk/cydia/depictions/php56
+Name: PHP56 (with OPcache)
+Role: hacker
+
+Package: php70
+Version: 7.0.0beta3-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 41004
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php56, php55, php54, php53
+Filename: debs/php70_7.0.0beta3-1_iphoneos-arm.deb
+Size: 4253406
+MD5sum: f69ccd99ff65ac076acb01d17a487691
+SHA1: 018c060f3cb6f2eac0bdf436cf34f47f5f6629fe
+SHA256: b296f2254f84c8a0d0e19c03fea23bd180932d3822aa538132b80c9d19b2b55a
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php70
+Version: 7.0.0rc1-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 40992
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php56, php55, php54, php53
+Filename: debs/php70_7.0.0rc1-2_iphoneos-arm.deb
+Size: 4255124
+MD5sum: 0b068b0983483bcabc4062e2d06e0d62
+SHA1: f100ccdc58e54f882a9b3ae027244e953c5e62b3
+SHA256: 9c1a4bdbdeef13ca46ab14f28384691a84d738d9d39fde2d090f8e6fefed14f1
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: php70
+Version: 7.0.0rc2-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 41036
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: curl, libfreetype, libjpeg, libmcrypt, libpng, libtiff, openssl, firmware(>= 3.0)
+Conflicts: php, com.jpifher.phppod
+Replaces: php56, php55, php54, php53
+Filename: debs/php70_7.0.0rc2-3_iphoneos-arm.deb
+Size: 4256412
+MD5sum: 47e3fb8519a278b57687b8f76d8130f1
+SHA1: b09363a57bd901202e1e7f77ef1e2b564afa3699
+SHA256: 4abafd02459515f68ad9dd4636c1d19007a0eb02396c8990618b6851cc8442a5
+Section: Scripting
+Priority: optional
+Description: The overly popular HTML templating language PHP.
+  The overly popular HTML templating language PHP.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: phpmyadmin-atv
+Version: 3.5.3-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 21472
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: debs/phpmyadmin-atv_3.5.3-3_iphoneos-arm.deb
+Size: 3662220
+MD5sum: f7ba7489988993005e23056ae064f095
+SHA1: 5a311fd85c9afd13dee78bf84ac517d80c22e942
+SHA256: 59a4c7452022333977ca21e8113bd94d5e9e8f8cbc524b2144b22c0db4ad082d
+Section: Administration
+Priority: optional
+Description: A tool to handle the administration of MySQL over the World Wide Web. Have a look at http://goo.gl/LXfUB .
+  phpMyAdmin is a free software tool written in PHP, intended to handle
+ the administration of MySQL over the World Wide Web.
+  phpMyAdmin supports a wide range of operations with MySQL.
+
+Package: tk.ios-webstack.logrotate-daemonizer
+Version: 1.0-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 32
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware(>= 3.0), logrotate
+Filename: debs/tk.ios-webstack.logrotate-daemonizer_1.0-1_iphoneos-arm.deb
+Size: 1524
+MD5sum: 25ddcadc8d48f0c302aa4fb1231b8e18
+SHA1: 889eacf608cb89f291e81727948e1cddc85405e9
+SHA256: eb244defbfee71aad55ecb1a78334a0c667afc251ec61257a7efd244d5a93e29
+Section: Utilities
+Priority: optional
+Description: The logrotate Daemonizere will daemonize the tool logrotate.
+  The logrotate Daemonizere will daemonize the tool logrotate.
+  Launchd will run the tool 'logrotate' each day at midnight.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: tk.ios-webstack.logrotate-daemonizer
+Version: 1.0-2
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 32
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware(>= 3.0), logrotate
+Filename: debs/tk.ios-webstack.logrotate-daemonizer_1.0-2_iphoneos-arm.deb
+Size: 1522
+MD5sum: 2d70faaf766b4670b1d20264d3498251
+SHA1: 440cf41da6ffdf5603c1031ada5b76ce9518bee3
+SHA256: 2e76daf8d4e5f8ea56cec92f704615364a440662547bb5f4a0db08b1ee9c99e6
+Section: Utilities
+Priority: optional
+Description: logrotate Daemonizere will daemonize the tool logrotate.
+  logrotate Daemonizere will daemonize the tool logrotate.
+  Launchd will run the tool 'logrotate' each day at midnight.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: tk.ios-webstack.znc
+Version: 1.4-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 7008
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0)
+Filename: debs/tk.ios-webstack.znc_1.4-1_iphoneos-arm.deb
+Size: 1742968
+MD5sum: 819f8a25e20c068a97fe0a52187726c3
+SHA1: 89c2874b83d9c08f6c99cc86d6edcb493fcb00d2
+SHA256: 1ba06022d4191b89ba018c2304d7e1fb7db9c9c8e334794d73be2935ab6f64f1
+Section: Networking
+Priority: optional
+Description: ZNC is an IRC network bouncer.
+  ZNC is an IRC network bouncer.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: tk.ios-webstack.znc
+Version: 1.4-3
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 7600
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl, firmware(>= 3.0)
+Filename: debs/tk.ios-webstack.znc_1.4-3_iphoneos-arm.deb
+Size: 1889280
+MD5sum: ea55cc0fec5356db4c8b3db210dd3e5c
+SHA1: 655a4beb16271b3c0fb312c944fb8e9baf5a5682
+SHA256: 1f1be94905eb8522df9417f7d096de3b6ae6877fea567c5df91ed2a61662eb60
+Section: Networking
+Priority: optional
+Description: ZNC is an IRC network bouncer (BNC).
+  ZNC is an IRC network bouncer (BNC).
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: webalizer-atv
+Version: RB29-5
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 5492
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgd, libgeoip, firmware(>= 3.0)
+Filename: debs/webalizer-atv_RB29-5_iphoneos-arm.deb
+Size: 464856
+MD5sum: 661c1c56be17dd9bf9d9f6c649b2f5d6
+SHA1: 79269c7fb53a7fee370a054000241fbac44412da
+SHA256: e02a535666af16eb62da57d1bde5040a73546fb7744566d432a4293dc46915c8
+Section: Networking
+Priority: optional
+Description: The Webalizer is a fast, free web server log file analysis program.
+  The Webalizer is a fast, free web server log file analysis program.
+  It produces highly detailed, easily configurable usage reports in HTML
+ format, for viewing with a standard web browser.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: webalizer-atv
+Version: RB30-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 8348
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: libgd, libgeoip, firmware(>= 3.0)
+Filename: debs/webalizer-atv_RB30-1_iphoneos-arm.deb
+Size: 678212
+MD5sum: c5f6652cf0590624e15a4a73c0677a32
+SHA1: 5d36b58890db746b9ac0243bdd9b4d03a72edf71
+SHA256: d0dc46e8d5dc6dfc96be9de4a55bb7f42d7a0696cb6bb428b87fb52b86fc137e
+Section: Networking
+Priority: optional
+Description: WEBALIZER Xtended is a web server log file analysis program.
+  WEBALIZER Xtended web server log file analysis program.
+  It produces highly detailed, easily configurable usage reports in HTML
+ format, for viewing with a standard web browser.
+Tag: purpose::console, role::hacker
+Role: hacker
+
+Package: wget
+Version: 1.16-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 576
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, openssl
+Filename: debs/wget_1.16-1_iphoneos-arm.deb
+Size: 200982
+MD5sum: da24a700bc862b2db5c71faad807deeb
+SHA1: 5e492a20dbff730096fd5a5b9e8a1f801ae5a9a2
+SHA256: 0208a6a82b899871fdfb2b3defa87ed1915d620edbb167d7a841142a9c6dbff5
+Section: Networking
+Priority: important
+Description: Simple HTTP file transfer client
+  Simple HTTP file transfer client
+  In this version (1.16) following security vulnerabilities are fixed
+ since Sauriks version 1.11 :
+Role: hacker
+
+Package: wget
+Version: 1.16.3-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 764
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: gettext, openssl
+Filename: debs/wget_1.16.3-1_iphoneos-arm.deb
+Size: 176202
+MD5sum: 46e7562089b75bf7da0fff9fe7d3d29b
+SHA1: 0c27d45ef166676ee0ef60032cd764955d9755e7
+SHA256: f57e20f6aa6582cae03529174fabfa5a54ed3610c2daecac159241e468a65920
+Section: Networking
+Priority: important
+Description: Simple HTTP file transfer client
+  Simple HTTP file transfer client
+  In this version a lot of security vulnerabilities are fixed since
+ Saurik's version.
+Role: hacker
+
+Package: wordpress4
+Version: 4.2.4-1
+Architecture: iphoneos-arm
+Maintainer: J. Anrugas <j.anrugas@gmail.com>
+Installed-Size: 21920
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.linusyang.localeutf8
+Conflicts: wordpress-atv
+Filename: debs/wordpress4_4.2.4-1_iphoneos-arm.deb
+Size: 4870758
+MD5sum: 34c5f13a9f9cfca1223ce4174ec64b67
+SHA1: 55eb0dec3bc9fbc92be42a5db143bbfa6626562f
+SHA256: 6cd072b51a6d7843d94f6b679d35ab0d6b16b9788c09657248f160c7d26fa3dd
+Section: Networking
+Priority: optional
+Description: WordPress is web software you can use to create a beautiful website or blog.
+  WordPress is web software you can use to create a beautiful website or
+ blog.
+  We like to say that WordPress is both free and priceless at the same
+ time.
+Tag: purpose::console
+Role: hacker
+
